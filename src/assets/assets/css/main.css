@@ -1,0 +1,6162 @@
+/* Common Part Start */
+
+/* Font-Face(폰트불러옴) */
+@font-face {
+    font-family: "NanumGothic";
+    src: url("../fonts/NanumGothic.eot");
+    /* IE9 Compat Modes */
+    src: url("../fonts/NanumGothic.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */
+        url("../fonts/NanumGothic.woff") format("woff"),
+        /* Modern Browsers */
+        url("../fonts/NanumGothic.ttf") format("truetype"),
+        /* Safari, Android, iOS */
+        url("../fonts/NanumGothic.svg#svgMothnnaFont") format("svg");
+    /* Legacy iOS */
+}
+
+#nt_div {
+    position: absolute;
+    width: 1080px;
+    top: 30px;
+}
+
+#nt_img {
+    position: relative;
+    top: 26px;
+    left: 289px;
+}
+
+#top_btn {
+    z-index: 9999;
+}
+
+#menu_ing {
+    position: absolute;
+    left: -9px;
+}
+
+#menu_ing,
+#menu_01,
+#menu_02,
+#menu_03,
+#menu_04,
+#menu_05 {
+    background-color: transparent;
+    border: 0px;
+    outline: 0px;
+    position: absolute;
+    top: 178px;
+}
+
+#menu_01,
+#menu_02,
+#menu_03,
+#menu_04,
+#menu_05 {
+    width: 159px;
+    height: 127px;
+    top: 210px;
+}
+
+#menu_01 {
+    left: 159px;
+}
+
+#menu_02 {
+    left: 310px;
+}
+
+#menu_03 {
+    left: 461px;
+}
+
+#menu_04 {
+    left: 612px;
+}
+
+#menu_05 {
+    left: 763px;
+}
+
+#back_black {
+    width: 1080px;
+    height: 1920px;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+
+p4,
+p5,
+p6 {
+    position: relative;
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 2em;
+    color: white;
+    border: 0px;
+    outline: 0px;
+}
+
+p4 {
+    font-size: 2em;
+    line-height: 45px;
+}
+
+p5 {
+    font-size: 3.2em;
+    line-height: 45px;
+}
+
+p6 {
+    font-size: 2.5em;
+    line-height: 35px;
+}
+
+#b_video {
+    position: absolute;
+    width: 876px;
+    height: 232px;
+    top: 1405px;
+/*    top: 1605px;*/
+    left: 103px;
+    border: 2px solid lightgray;
+    border-radius: 25px;
+}
+
+#myVideo {
+    border-radius: 30px;
+}
+
+#myVideo_gif {
+    position: absolute;
+    border-radius: 23px;
+    width: 876px;
+    height: 232px;
+}
+
+#list_text_num1 {
+    top: 25px;
+    position: relative;
+    float: left;
+    left: 890px;
+    width: 100px;
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 1.7em;
+    color: white;
+    border: 0px;
+    outline: 0px;
+    background-color: transparent;
+    text-align: center;
+}
+
+
+/* Common Part End */
+
+
+
+/* Animation Start */
+@keyframes logo_scale {
+    0% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+    }
+}
+
+@keyframes tsub_img {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes btn_scale {
+    0% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    70% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+    }
+}
+
+@keyframes btn_scale2 {
+    0% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    70% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.05);
+        -webkit-transform: scale(1.15);
+        -moz-transform: scale(1.15);
+        -ms-transform: scale(1.15);
+        -o-transform: scale(1.15);
+    }
+}
+
+@keyframes print_img {
+    0% {
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* Animation End */
+
+
+
+/* Main Page Start */
+
+#main_mt_div {
+    position: absolute;
+    width: 1080px;
+    top: 34px;
+    visibility: hidden;
+}
+
+#main_mt_logo {
+    position: relative;
+    float: right;
+    top: 30px;
+    width: 320px;
+    right: 70px;
+}
+
+
+
+#main_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 182px;
+}
+
+#main_title_img {
+    position: relative;
+    left: 92px;
+}
+
+
+
+#main_t_btn {
+    position: absolute;
+    width: 1080px;
+    top: 507px;
+}
+
+
+
+
+
+#main_ao_btn {
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 300px;
+    left: 140px;
+    background-color: none;
+    background-image: url(../../image/BTN/main_btn00-1.png);
+    animation: btn_scale 3s 1s infinite alternate;
+}
+
+#main_ao_btn:active {
+    background-image: url(../../image/BTN/main_btn00-2.png);
+}
+
+#main_ao_but {
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: transparent;
+
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 2em;
+    color: white;
+    line-height: 45px;
+    border: 0px;
+    outline: 0px;
+}
+
+
+
+
+
+#main_ho_btn {
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 300px;
+    top: 110px;
+    left: 140px;
+    background-color: none;
+    background-image: url(../../image/BTN/main_btn01-1.png);
+    animation: btn_scale 3s 2s infinite alternate;
+}
+
+#main_ho_btn:active {
+    background-image: url(../../image/BTN/main_btn01-2.png);
+}
+
+#main_ho_but {
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: transparent;
+
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 2em;
+    color: white;
+    line-height: 45px;
+    border: 0px;
+    outline: 0px;
+}
+
+
+
+
+
+#main_so_btn {
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 300px;
+    top: 220px;
+    left: 140px;
+    background-image: url(../../image/BTN/main_btn02-1.png);
+    animation: btn_scale 3s 3s infinite alternate;
+}
+
+#main_so_btn:active {
+    background-image: url(../../image/BTN/main_btn02-2.png);
+}
+
+#main_so_but {
+    position: relative;
+    float: right;
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: transparent;
+
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 2em;
+    color: white;
+    line-height: 45px;
+    border: 0px;
+    outline: 0px;
+}
+
+
+
+
+
+#main_ao_btnH {
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 300px;
+    left: 140px;
+    background-color: none;
+    background-image: url(../../image/BTN/main_btn00-1.png);
+    opacity: 0.2;
+}
+
+#main_ao_butH {
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: transparent;
+
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 2em;
+    color: white;
+    line-height: 45px;
+    border: 0px;
+    outline: 0px;
+}
+
+
+#main_ho_btnH {
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 300px;
+    top: 110px;
+    left: 140px;
+    background-color: none;
+    background-image: url(../../image/BTN/main_btn01-1.png);
+    opacity: 0.2;
+}
+
+#main_ho_butH {
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: transparent;
+
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 2em;
+    color: white;
+    line-height: 45px;
+    border: 0px;
+    outline: 0px;
+}
+
+
+
+#main_so_btnH {
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 300px;
+    top: 220px;
+    left: 140px;
+    background-image: url(../../image/BTN/main_btn02-1.png);
+    opacity: 0.2;
+}
+
+#main_so_butH {
+    position: relative;
+    float: right;
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: transparent;
+
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 2em;
+    color: white;
+    line-height: 45px;
+    border: 0px;
+    outline: 0px;
+}
+
+
+
+
+
+
+#main_manager {
+    position: absolute;
+    top: 1720px;
+    width: 1080px;
+    height: 200px;
+    background-color: transparent;
+}
+
+#main_mg_btn1,
+#main_mg_btn2,
+#main_mg_btn3 {
+    position: relative;
+    background-image: url(../../image/BTN/manage_box.png);
+    float: left;
+    width: 360px;
+    height: 200px;
+    background-color: transparent;
+    border: 0px;
+    outline: 0px;
+}
+
+
+/* Main Page End */
+
+
+
+/* Main_Select Page Start */
+
+#main_select_mt_div {
+    position: absolute;
+    width: 1080px;
+    top: 34px;
+    visibility: hidden;
+}
+
+#main_select_mt_logo {
+    position: relative;
+    float: right;
+    top: 30px;
+    width: 320px;
+    right: 70px;
+}
+
+
+
+#main_select_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 182px;
+}
+
+#main_select_title_img {
+    position: relative;
+    left: 92px;
+}
+
+
+
+#main_select_t_btn {
+    position: absolute;
+    width: 1080px;
+    top: 507px;
+}
+
+
+
+
+
+#main_select_ao_btn {
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 300px;
+    left: 140px;
+    background-color: none;
+    background-image: url(../../image/BTN/main_select_btn00-1.png);
+    animation: btn_scale 3s 1s infinite alternate;
+}
+
+#main_select_ao_btn:active {
+    background-image: url(../../image/BTN/main_select_btn00-2.png);
+}
+
+#main_select_ao_but {
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: transparent;
+
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 2em;
+    color: white;
+    line-height: 45px;
+    border: 0px;
+    outline: 0px;
+}
+
+
+
+
+
+#main_select_ho_btn {
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 300px;
+    top: 110px;
+    left: 140px;
+    background-color: none;
+    background-image: url(../../image/BTN/main_select_btn01-1.png);
+    animation: btn_scale 3s 2s infinite alternate;
+}
+
+#main_select_ho_btn:active {
+    background-image: url(../../image/BTN/main_select_btn01-2.png);
+}
+
+#main_select_ho_but {
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: transparent;
+
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 2em;
+    color: white;
+    line-height: 45px;
+    border: 0px;
+    outline: 0px;
+}
+
+
+
+
+
+#main_select_so_btn {
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 300px;
+    top: 220px;
+    left: 140px;
+    background-image: url(../../image/BTN/main_select_btn02-1.png);
+    animation: btn_scale 3s 3s infinite alternate;
+}
+
+#main_select_so_btn:active {
+    background-image: url(../../image/BTN/main_select_btn02-2.png);
+}
+
+#main_select_so_but {
+    position: relative;
+    float: right;
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: transparent;
+
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 2em;
+    color: white;
+    line-height: 45px;
+    border: 0px;
+    outline: 0px;
+}
+
+
+
+
+
+
+#main_select_manager {
+    position: absolute;
+    top: 1720px;
+    width: 1080px;
+    height: 200px;
+    background-color: transparent;
+}
+
+#main_select_mg_btn1,
+#main_select_mg_btn2,
+#main_select_mg_btn3 {
+    position: relative;
+    background-image: url(../../image/BTN/manage_box.png);
+    float: left;
+    width: 360px;
+    height: 200px;
+    background-color: transparent;
+    border: 0px;
+    outline: 0px;
+}
+
+
+#main_select_n_tsub_img {
+    position: relative;
+    left: 114px;
+    top: 900px;
+    opacity: 0.5;
+    animation: tsub_img 1s infinite alternate;
+}
+
+
+#input_gbn {
+    visibility: hidden;
+}
+
+
+
+#main_select_pre_btn,
+#main_select_home_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+}
+
+#main_select_pre_but,
+#main_select_home_but {
+    background-color: transparent;
+    position: relative;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+}
+
+#main_select_pre_btn {
+    background-image: url(../../image/btn/no_btn.png);
+    top: 1737px;
+    left: 67px;
+}
+
+#main_select_home_btn {
+    background-image: url(../../image/btn/home_btn.png);
+    top: 28px;
+    left: 860px;
+    visibility: hidden;
+}
+
+#main_select_pre_btn:active {
+    background-image: url(../../image/btn/no_btn_r.png);
+}
+
+#main_select_home_btn:active {
+    background-image: url(../../image/btn/home_btn_r.png);
+}
+
+
+
+
+
+/* Main_Select Page End */
+
+
+
+
+
+
+/* Number Page Start */
+
+#pay_search_pre_btn,
+#pay_search_home_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+}
+
+#pay_search_pre_but,
+#pay_search_home_but {
+    background-color: transparent;
+    position: relative;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+}
+
+#pay_search_pre_btn {
+    background-image: url(../../image/btn/no_btn.png);
+    top: 1737px;
+    left: 67px;
+}
+
+#pay_search_home_btn {
+    background-image: url(../../image/btn/home_btn.png);
+    top: 28px;
+    left: 860px;
+}
+
+#pay_search_pre_btn:active {
+    background-image: url(../../image/btn/no_btn_r.png);
+}
+
+#pay_search_home_btn:active {
+    background-image: url(../../image/btn/home_btn_r.png);
+}
+
+
+#pay_search_n_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 430px;
+}
+
+#pay_search_n_title_img1 {
+    position: relative;
+}
+
+#pay_search_n_tsub_img {
+    position: relative;
+    left: 114px;
+    top: 50px;
+    opacity: 0.5;
+    animation: tsub_img 1s infinite alternate;
+}
+
+
+#pay_search_num_div {
+    position: absolute;
+    width: 1080px;
+    top: 794px;
+}
+
+#pay_search_num_input {
+    position: absolute;
+    left: 216px;
+}
+
+#pay_search_num_inputtxt {
+    position: absolute;
+    width: 651px;
+    height: 119px;
+    left: 216px;
+    background-color: transparent;
+
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 3.5em;
+    color: black;
+    line-height: 45px;
+    font-weight: 500;
+    border: 0px;
+    outline: 0px;
+    text-align: center;
+}
+
+#pay_search_inputtxt,
+#pay_search_jumin1,
+#pay_search_jumin2,
+#pay_search_jumin3 {
+    visibility: hidden;
+}
+
+#pay_search_num_pad {
+    position: absolute;
+    width: 1080px;
+    height: 626px;
+    top: 160px;
+}
+
+.pay_search_num_pad_1,
+.pay_search_num_pad_2,
+.pay_search_num_pad_3,
+.pay_search_num_pad_4,
+.pay_search_num_pad_5,
+.pay_search_num_pad_6,
+.pay_search_num_pad_7,
+.pay_search_num_pad_8,
+.pay_search_num_pad_9,
+.pay_search_num_pad_0,
+.pay_search_num_pad_del,
+.pay_search_num_pad_dall {
+    position: absolute;
+    background-color: transparent;
+    width: 213px;
+    height: 142px;
+    border: 0px;
+    outline: 0px;
+}
+
+.pay_search_num_pad_1 {
+    background-image: url(../../image/num/1.png);
+    top: 12px;
+    left: 216px;
+}
+
+.pay_search_num_pad_1:active {
+    background-image: url(../../image/num/1_r.png);
+}
+
+.pay_search_num_pad_2 {
+    background-image: url(../../image/num/2.png);
+    top: 12px;
+    left: 434px;
+}
+
+.pay_search_num_pad_2:active {
+    background-image: url(../../image/num/2_r.png);
+}
+
+.pay_search_num_pad_3 {
+    background-image: url(../../image/num/3.png);
+    top: 12px;
+    left: 653px;
+}
+
+.pay_search_num_pad_3:active {
+    background-image: url(../../image/num/3_r.png);
+}
+
+
+.pay_search_num_pad_4 {
+    background-image: url(../../image/num/4.png);
+    top: 160px;
+    left: 216px;
+}
+
+.pay_search_num_pad_4:active {
+    background-image: url(../../image/num/4_r.png);
+}
+
+.pay_search_num_pad_5 {
+    background-image: url(../../image/num/5.png);
+    top: 160px;
+    left: 434px;
+}
+
+.pay_search_num_pad_5:active {
+    background-image: url(../../image/num/5_r.png);
+}
+
+.pay_search_num_pad_6 {
+    background-image: url(../../image/num/6.png);
+    top: 160px;
+    left: 653px;
+}
+
+.pay_search_num_pad_6:active {
+    background-image: url(../../image/num/6_r.png);
+}
+
+
+.pay_search_num_pad_7 {
+    background-image: url(../../image/num/7.png);
+    top: 308px;
+    left: 216px;
+}
+
+.pay_search_num_pad_7:active {
+    background-image: url(../../image/num/7_r.png);
+}
+
+.pay_search_num_pad_8 {
+    background-image: url(../../image/num/8.png);
+    top: 308px;
+    left: 434px;
+}
+
+.pay_search_num_pad_8:active {
+    background-image: url(../../image/num/8_r.png);
+}
+
+.pay_search_num_pad_9 {
+    background-image: url(../../image/num/9.png);
+    top: 308px;
+    left: 653px;
+}
+
+.pay_search_num_pad_9:active {
+    background-image: url(../../image/num/9_r.png);
+}
+
+
+.pay_search_num_pad_del {
+    background-image: url(../../image/num/del.png);
+    top: 456px;
+    left: 216px;
+}
+
+.pay_search_num_pad_del:active {
+    background-image: url(../../image/num/del_r.png);
+}
+
+.pay_search_num_pad_0 {
+    background-image: url(../../image/num/0.png);
+    top: 456px;
+    left: 434px;
+}
+
+.pay_search_num_pad_0:active {
+    background-image: url(../../image/num/0_r.png);
+}
+
+.pay_search_num_pad_dall {
+    background-image: url(../../image/num/del_all.png);
+    top: 456px;
+    left: 653px;
+}
+
+.pay_search_num_pad_dall:active {
+    background-image: url(../../image/num/del_all_r.png);
+}
+
+#pay_search_con_btn {
+    position: absolute;
+    background-color: black;
+    top: 943px;
+}
+
+.pay_search_btn_ok {
+    position: absolute;
+    background-color: transparent;
+    width: 382px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/ok_btn.png);
+    left: 629px;
+}
+
+.pay_search_btn_ok:active {
+    background-image: url(../../image/btn/ok_btn_r.png);
+}
+
+/* Number Page End */
+
+
+
+
+/* Number Page Start */
+
+#pay_search_phone_pre_btn,
+#pay_search_phone_home_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+}
+
+#pay_search_phone_pre_but,
+#pay_search_phone_home_but {
+    background-color: transparent;
+    position: relative;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+}
+
+#pay_search_phone_pre_btn {
+    background-image: url(../../image/btn/no_btn.png);
+    top: 1737px;
+    left: 67px;
+}
+
+#pay_search_phone_home_btn {
+    background-image: url(../../image/btn/home_btn.png);
+    top: 28px;
+    left: 860px;
+}
+
+#pay_search_phone_pre_btn:active {
+    background-image: url(../../image/btn/no_btn_r.png);
+}
+
+#pay_search_phone_home_btn:active {
+    background-image: url(../../image/btn/home_btn_r.png);
+}
+
+
+#pay_search_phone_n_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 430px;
+}
+
+#pay_search_phone_n_title_img1 {
+    position: relative;
+}
+
+#pay_search_phone_n_tsub_img {
+    position: relative;
+    left: 114px;
+    top: 50px;
+    opacity: 0.5;
+    animation: tsub_img 1s infinite alternate;
+}
+
+
+#pay_search_phone_num_div {
+    position: absolute;
+    width: 1080px;
+    top: 794px;
+}
+
+#pay_search_phone_num_input {
+    position: absolute;
+    left: 216px;
+}
+
+#pay_search_phone_num_inputtxt {
+    position: absolute;
+    width: 651px;
+    height: 119px;
+    left: 216px;
+    background-color: transparent;
+
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 3.5em;
+    color: black;
+    line-height: 45px;
+    font-weight: 500;
+    border: 0px;
+    outline: 0px;
+    text-align: center;
+}
+
+#pay_search_phone_inputtxt,
+#pay_search_phone_jumin1,
+#pay_search_phone_jumin2,
+#pay_search_phone_jumin3 {
+    visibility: hidden;
+}
+
+#pay_search_phone_num_pad {
+    position: absolute;
+    width: 1080px;
+    height: 626px;
+    top: 160px;
+}
+
+.pay_search_phone_num_pad_1,
+.pay_search_phone_num_pad_2,
+.pay_search_phone_num_pad_3,
+.pay_search_phone_num_pad_4,
+.pay_search_phone_num_pad_5,
+.pay_search_phone_num_pad_6,
+.pay_search_phone_num_pad_7,
+.pay_search_phone_num_pad_8,
+.pay_search_phone_num_pad_9,
+.pay_search_phone_num_pad_0,
+.pay_search_phone_num_pad_del,
+.pay_search_phone_num_pad_dall {
+    position: absolute;
+    background-color: transparent;
+    width: 213px;
+    height: 142px;
+    border: 0px;
+    outline: 0px;
+}
+
+.pay_search_phone_num_pad_1 {
+    background-image: url(../../image/num/1.png);
+    top: 12px;
+    left: 216px;
+}
+
+.pay_search_phone_num_pad_1:active {
+    background-image: url(../../image/num/1_r.png);
+}
+
+.pay_search_phone_num_pad_2 {
+    background-image: url(../../image/num/2.png);
+    top: 12px;
+    left: 434px;
+}
+
+.pay_search_phone_num_pad_2:active {
+    background-image: url(../../image/num/2_r.png);
+}
+
+.pay_search_phone_num_pad_3 {
+    background-image: url(../../image/num/3.png);
+    top: 12px;
+    left: 653px;
+}
+
+.pay_search_phone_num_pad_3:active {
+    background-image: url(../../image/num/3_r.png);
+}
+
+
+.pay_search_phone_num_pad_4 {
+    background-image: url(../../image/num/4.png);
+    top: 160px;
+    left: 216px;
+}
+
+.pay_search_phone_num_pad_4:active {
+    background-image: url(../../image/num/4_r.png);
+}
+
+.pay_search_phone_num_pad_5 {
+    background-image: url(../../image/num/5.png);
+    top: 160px;
+    left: 434px;
+}
+
+.pay_search_phone_num_pad_5:active {
+    background-image: url(../../image/num/5_r.png);
+}
+
+.pay_search_phone_num_pad_6 {
+    background-image: url(../../image/num/6.png);
+    top: 160px;
+    left: 653px;
+}
+
+.pay_search_phone_num_pad_6:active {
+    background-image: url(../../image/num/6_r.png);
+}
+
+
+.pay_search_phone_num_pad_7 {
+    background-image: url(../../image/num/7.png);
+    top: 308px;
+    left: 216px;
+}
+
+.pay_search_phone_num_pad_7:active {
+    background-image: url(../../image/num/7_r.png);
+}
+
+.pay_search_phone_num_pad_8 {
+    background-image: url(../../image/num/8.png);
+    top: 308px;
+    left: 434px;
+}
+
+.pay_search_phone_num_pad_8:active {
+    background-image: url(../../image/num/8_r.png);
+}
+
+.pay_search_phone_num_pad_9 {
+    background-image: url(../../image/num/9.png);
+    top: 308px;
+    left: 653px;
+}
+
+.pay_search_phone_num_pad_9:active {
+    background-image: url(../../image/num/9_r.png);
+}
+
+
+.pay_search_phone_num_pad_del {
+    background-image: url(../../image/num/del.png);
+    top: 456px;
+    left: 216px;
+}
+
+.pay_search_phone_num_pad_del:active {
+    background-image: url(../../image/num/del_r.png);
+}
+
+.pay_search_phone_num_pad_0 {
+    background-image: url(../../image/num/0.png);
+    top: 456px;
+    left: 434px;
+}
+
+.pay_search_phone_num_pad_0:active {
+    background-image: url(../../image/num/0_r.png);
+}
+
+.pay_search_phone_num_pad_dall {
+    background-image: url(../../image/num/del_all.png);
+    top: 456px;
+    left: 653px;
+}
+
+.pay_search_phone_num_pad_dall:active {
+    background-image: url(../../image/num/del_all_r.png);
+}
+
+#pay_search_phone_con_btn {
+    position: absolute;
+    background-color: black;
+    top: 943px;
+}
+
+.pay_search_phone_btn_ok {
+    position: absolute;
+    background-color: transparent;
+    width: 382px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/ok_btn.png);
+    left: 629px;
+}
+
+.pay_search_phone_btn_ok:active {
+    background-image: url(../../image/btn/ok_btn_r.png);
+}
+
+/* Number Page End */
+
+
+
+
+
+
+/* Pay_search_ok Page Start */
+
+#pay_search_ok_pre_btn,
+#pay_search_ok_home_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+}
+
+#pay_search_ok_pre_but,
+#pay_search_ok_home_but {
+    background-color: transparent;
+    position: relative;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+}
+
+#pay_search_ok_pre_btn {
+    background-image: url(../../image/btn/no_btn.png);
+    top: 1737px;
+    left: 67px;
+}
+
+#pay_search_ok_home_btn {
+    background-image: url(../../image/btn/home_btn.png);
+    top: 28px;
+    left: 860px;
+}
+
+#pay_search_ok_pre_btn:active {
+    background-image: url(../../image/btn/no_btn_r.png);
+}
+
+#pay_search_ok_home_btn:active {
+    background-image: url(../../image/btn/home_btn_r.png);
+}
+
+
+#pay_search_ok_n_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 430px;
+}
+
+#pay_search_ok_n_title_img1 {
+    position: relative;
+}
+
+#pay_search_ok_n_tsub_img {
+    position: relative;
+    left: 114px;
+    top: 50px;
+    opacity: 0.5;
+    animation: tsub_img 1s infinite alternate;
+}
+
+#pay_search_ok_n_name_box {
+    position: relative;
+    left: 127px;
+    top: 191px;
+}
+
+#pay_search_ok_n_num_box {
+    position: relative;
+    left: 127px;
+    top: 255px;
+}
+
+#pay_search_ok_num_div {
+    position: absolute;
+    width: 1080px;
+    top: 794px;
+}
+
+#pay_search_ok_num_inputtxt1,
+#pay_search_ok_num_inputtxt2 {
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 3.5em;
+    color: black;
+    line-height: 45px;
+    font-weight: 500;
+    border: 0px;
+    outline: 0px;
+    text-align: left;
+    position: absolute;
+    width: 495px;
+    height: 119px;
+    left: 420px;
+    background-color: transparent;
+}
+
+#pay_search_ok_num_inputtxt1 {
+    top: 80px;
+}
+
+#pay_search_ok_num_inputtxt2 {
+    top: 325px;
+}
+
+#pay_search_ok_con_btn {
+    position: absolute;
+    background-color: black;
+    top: 943px;
+}
+
+.pay_search_ok_btn_ok {
+    position: absolute;
+    background-color: transparent;
+    width: 382px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/ok_btn.png);
+    left: 629px;
+}
+
+.pay_search_ok_btn_ok:active {
+    background-image: url(../../image/btn/ok_btn_r.png);
+}
+
+
+/* Pay_search_ok Page End */
+
+
+
+/* Pay_list Page Start */
+
+#pay_list_pre_btn,
+#pay_list_home_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+}
+
+#pay_list_pre_but,
+#pay_list_home_but {
+    background-color: transparent;
+    position: relative;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+}
+
+#pay_list_pre_btn {
+    background-image: url(../../image/btn/no_btn.png);
+    top: 1737px;
+    left: 67px;
+}
+
+#pay_list_home_btn {
+    background-image: url(../../image/btn/home_btn.png);
+    top: 28px;
+    left: 860px;
+}
+
+#pay_list_pre_btn:active {
+    background-image: url(../../image/btn/no_btn_r.png);
+}
+
+#pay_list_home_btn:active {
+    background-image: url(../../image/btn/home_btn_r.png);
+}
+
+
+#pay_list_n_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 430px;
+}
+
+#pay_list_n_title_img1 {
+    position: relative;
+}
+
+#pay_list_n_tsub_img {
+    position: relative;
+    left: 114px;
+    top: 50px;
+    opacity: 0.5;
+    animation: tsub_img 1s infinite alternate;
+}
+
+
+#pay_list_doc_title_div {
+    position: absolute;
+    width: 879px;
+    left: 45px;
+/*    left: 103px;*/
+    top: 763px;
+}
+
+.pay_list_view {
+    width: 879px;
+    height: 875px;
+    position: absolute;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.pay_list_scrollBlind {
+    width: 1200px;
+    height: 100%;
+    overflow-y: hidden;
+    background-color: transparent;
+}
+
+.pay_list_doc_ul {
+    position: relative;
+    width: 880px;
+    top: 0px;
+}
+
+#pay_list_doc_but {
+    width: 879px;
+    height: 293px;
+    line-height: 50px;
+    background-image: url(../../image/doc_back02.png);
+    background-color: transparent;
+    border: 0px;
+    outline: 0px;
+}
+
+/*
+#pay_list_doc_but:active {
+    background-image: url(../../image/doc_back02.png);
+} 
+*/
+.pay_list_doc_txt0 {
+    position: relative;
+    float: left;
+    text-align: center;
+    vertical-align: text-top;
+    background-color: transparent;
+    font-size: 1em;
+    color: black;
+    outline: 0px;
+    border: 0px;
+    width: 145px;
+    top: 5px;
+    visibility: hidden;
+}
+
+#pay_list_text_box1 {
+    position: relative;
+    float: left;
+    top: 32px;
+    left: 40px;
+    width: 160px;
+    height: 250px;
+}
+
+#pay_list_text_box2 {
+    position: relative;
+    float: left;
+    top: 32px;
+    left: 207px;
+    width: 160px;
+    height: 250px;
+}
+
+.pay_list_doc_txt1,
+.pay_list_doc_txt2,
+.pay_list_doc_txt3,
+.pay_list_doc_txt4,
+.pay_list_doc_txt5,
+.pay_list_doc_txt6,
+.pay_list_doc_txt7,
+.pay_list_doc_txt8 {
+    position: relative;
+    float: left;
+    vertical-align: text-top;
+    height: 39px;
+    background-color: transparent;
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 1.3em;
+    line-height: 50px;
+    color: black;
+    border: 0px;
+    outline: 0px;
+    resize: none;
+    top: 0px;
+}
+
+.pay_list_doc_txt1,
+.pay_list_doc_txt2 {
+    text-align: center;
+    width: 145px;
+}
+
+.pay_list_doc_txt3,
+.pay_list_doc_txt4,
+.pay_list_doc_txt5,
+.pay_list_doc_txt6,
+.pay_list_doc_txt7,
+.pay_list_doc_txt8 {
+    width: 125px;
+    /*    width: 135px;*/
+    text-align: right;
+}
+
+.pay_list_doc_sbut {
+    position: relative;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/doc_sbtn.png);
+    top: 72px;
+    left: 223px;
+    /*    left: 370px;*/
+}
+
+.pay_list_doc_sbut:active {
+    background-image: url(../../image/btn/doc_sbtn_r.png);
+}
+
+
+#pay_list_counttxt {
+    position: relative;
+    text-align: center;
+    vertical-align: text-top;
+    float: right;
+    top: 238px;
+    right: 0px;
+    width: 142px;
+    height: 50px;
+    background-color: transparent;
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 1em;
+    line-height: 50px;
+    color: gray;
+    border: 0px;
+    outline: 0px;
+    resize: none;
+}
+
+#pay_list_doc_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 100px;
+    height: 500px;
+    top: 955px;
+    left: 935px;
+}
+
+.pay_list_doc_but_up {
+    background-color: transparent;
+    position: relative;
+    width: 100px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/up_btn_n.png);
+}
+
+.pay_list_doc_but_down {
+    background-color: transparent;
+    position: relative;
+    width: 100px;
+    border: 0px;
+    outline: 0px;
+    top: 18px;
+    background-image: url(../../image/btn/down_btn_n.png);
+}
+
+#pay_list_doc_btn_up {
+    position: relative;
+    top: 0px;
+    width: 100px;
+    height: 241px;
+    background-color: transparent;
+    background-image: url(../../image/btn/up_btn.png);
+    border: 0px;
+    outline: 0px;
+}
+
+#pay_list_doc_btn_up:active {
+    background-image: url(../../image/btn/up_btn_r.png);
+}
+
+#pay_list_doc_btn_down {
+    position: relative;
+    width: 100px;
+    height: 241px;
+    background-color: transparent;
+    background-image: url(../../image/btn/down_btn.png);
+    border: 0px;
+    outline: 0px;
+}
+
+#pay_list_doc_btn_down:active {
+    background-image: url(../../image/btn/down_btn_r.png);
+}
+
+
+
+/* Pay_list Page End */
+
+
+
+
+
+/* Pay_card Page Start */
+
+
+#pay_card_pre_btn,
+#pay_card_home_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+}
+
+#pay_card_pre_but,
+#pay_card_home_but {
+    background-color: transparent;
+    position: relative;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+}
+
+#pay_card_pre_btn {
+    background-image: url(../../image/btn/no_btn.png);
+    top: 1737px;
+    left: 67px;
+}
+
+#pay_card_home_btn {
+    background-image: url(../../image/btn/home_btn.png);
+    top: 28px;
+    left: 860px;
+}
+
+#pay_card_pre_btn:active {
+    background-image: url(../../image/btn/no_btn_r.png);
+}
+
+#pay_card_home_btn:active {
+    background-image: url(../../image/btn/home_btn_r.png);
+}
+
+
+#pay_card_n_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 430px;
+}
+
+#pay_card_n_title_img1 {
+    position: relative;
+}
+
+#pay_card_n_cost_box {
+    position: relative;
+    left: 127px;
+    top: 19px;
+}
+
+#pay_card_n_tsub_img {
+    position: relative;
+    left: 114px;
+    top: 380px;
+    /*    top: 440px;*/
+    opacity: 0.5;
+    animation: tsub_img 1s infinite alternate;
+}
+
+#pay_card_n_bottom_img {
+    position: relative;
+    left: 91px;
+    top: 400px;
+    /*    top: 477px;*/
+}
+
+#pay_card_num_div {
+    position: absolute;
+    width: 1080px;
+    top: 794px;
+}
+
+#pay_card_num_inputtxt1 {
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 3.5em;
+    color: black;
+    line-height: 45px;
+    font-weight: 500;
+    border: 0px;
+    outline: 0px;
+    text-align: right;
+    position: absolute;
+    width: 420px;
+    height: 118px;
+    left: 420px;
+    background-color: transparent;
+    top: 165px;
+}
+
+#pay_card_con_btn {
+    position: absolute;
+    background-color: black;
+    top: 943px;
+}
+
+.pay_card_btn_ok {
+    position: absolute;
+    background-color: transparent;
+    width: 382px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/payment_btn.png);
+    left: 629px;
+}
+
+.pay_card_btn_ok:active {
+    background-image: url(../../image/btn/payment_btn_r.png);
+}
+
+
+/* Pay_card Page End */
+
+
+
+/* Pay_cardchk Page Start */
+
+#pay_cardChkBG {
+    position: relative;
+    left: 114px;
+    top: 100px;
+}
+
+#pay_cardChkBGtitle {
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 2.5em;
+    color: white;
+    line-height: 45px;
+    font-weight: 500;
+    border: 0px;
+    outline: 0px;
+    text-align: left;
+    position: absolute;
+    width: 775px;
+    height: 118px;
+    left: 150px;
+    background-color: transparent;
+    top: 380px;
+}
+
+#pay_cardChkBGsub {
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 2.4em;
+    color: black;
+    line-height: 65px;
+    font-weight: 500;
+    border: 0px;
+    outline: 0px;
+    text-align: center;
+    position: absolute;
+    width: 775px;
+    height: 118px;
+    left: 150px;
+    background-color: transparent;
+    top: 590px;
+}
+
+.pay_cardChk_btn_ok {
+    position: absolute;
+    background-color: transparent;
+    width: 382px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/paychkY.png);
+    left: 149px;
+    top: 1050px;
+}
+
+.pay_cardChk_btn_ok:active {
+    background-image: url(../../image/btn/paychkY_r.png);
+}
+
+.pay_cardChk_btn_no {
+    position: absolute;
+    background-color: transparent;
+    width: 382px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/paychkN.png);
+    left: 549px;
+    top: 1050px;
+}
+
+.pay_cardChk_btn_no:active {
+    background-image: url(../../image/btn/paychkN_r.png);
+}
+
+/* Pay_cardchk Page End */
+
+
+/* Pay_monthly Page Start */
+
+
+#pay_monthly_pre_btn,
+#pay_monthly_home_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+}
+
+#pay_monthly_pre_but,
+#pay_monthly_home_but {
+    background-color: transparent;
+    position: relative;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+}
+
+#pay_monthly_pre_btn {
+    background-image: url(../../image/btn/no_btn.png);
+    top: 1737px;
+    left: 67px;
+}
+
+#pay_monthly_home_btn {
+    background-image: url(../../image/btn/home_btn.png);
+    top: 28px;
+    left: 860px;
+}
+
+#pay_monthly_pre_btn:active {
+    background-image: url(../../image/btn/no_btn_r.png);
+}
+
+#pay_monthly_home_btn:active {
+    background-image: url(../../image/btn/home_btn_r.png);
+}
+
+
+#pay_monthly_n_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 430px;
+}
+
+#pay_monthly_n_title_img1 {
+    position: relative;
+}
+
+#pay_monthly_n_cost_box {
+    position: relative;
+    left: 127px;
+    top: 19px;
+}
+
+#pay_monthly_n_tsub_img {
+    position: relative;
+    left: 114px;
+    top: 80px;
+    /*    top: 440px;*/
+    opacity: 0.5;
+    animation: tsub_img 1s infinite alternate;
+}
+
+#pay_monthly_num_div {
+    position: absolute;
+    width: 1080px;
+    top: 794px;
+}
+
+#pay_monthly_num_inputtxt1 {
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 3.5em;
+    color: black;
+    line-height: 45px;
+    font-weight: 500;
+    border: 0px;
+    outline: 0px;
+    text-align: right;
+    position: absolute;
+    width: 420px;
+    height: 118px;
+    left: 420px;
+    background-color: transparent;
+    top: 165px;
+}
+
+#pay_monthly_con_btn {
+    position: absolute;
+    background-color: black;
+    top: 943px;
+}
+
+#pay_monthly_num_div {
+    position: absolute;
+    width: 1080px;
+    top: 794px;
+}
+
+#pay_monthly_num_pad {
+    position: absolute;
+    width: 1080px;
+    height: 626px;
+    top: 160px;
+}
+
+.pay_monthly_num_pad_1,
+.pay_monthly_num_pad_2,
+.pay_monthly_num_pad_3,
+.pay_monthly_num_pad_4,
+.pay_monthly_num_pad_5,
+.pay_monthly_num_pad_6,
+.pay_monthly_num_pad_7,
+.pay_monthly_num_pad_8,
+.pay_monthly_num_pad_9,
+.pay_monthly_num_pad_10,
+.pay_monthly_num_pad_11,
+.pay_monthly_num_pad_12 {
+    position: absolute;
+    background-color: transparent;
+    width: 213px;
+    height: 142px;
+    border: 0px;
+    outline: 0px;
+}
+
+.pay_monthly_num_pad_1 {
+    background-image: url(../../image/num/mon_01.png);
+    top: 12px;
+    left: 216px;
+}
+
+.pay_monthly_num_pad_1:active {
+    background-image: url(../../image/num/mon_01_r.png);
+}
+
+.pay_monthly_num_pad_2 {
+    background-image: url(../../image/num/mon_02.png);
+    top: 12px;
+    left: 434px;
+}
+
+.pay_monthly_num_pad_2:active {
+    background-image: url(../../image/num/mon_02_r.png);
+}
+
+.pay_monthly_num_pad_3 {
+    background-image: url(../../image/num/mon_03.png);
+    top: 12px;
+    left: 653px;
+}
+
+.pay_monthly_num_pad_3:active {
+    background-image: url(../../image/num/mon_03_r.png);
+}
+
+
+.pay_monthly_num_pad_4 {
+    background-image: url(../../image/num/mon_04.png);
+    top: 160px;
+    left: 216px;
+}
+
+.pay_monthly_num_pad_4:active {
+    background-image: url(../../image/num/mon_04_r.png);
+}
+
+.pay_monthly_num_pad_5 {
+    background-image: url(../../image/num/mon_05.png);
+    top: 160px;
+    left: 434px;
+}
+
+.pay_monthly_num_pad_5:active {
+    background-image: url(../../image/num/mon_05_r.png);
+}
+
+.pay_monthly_num_pad_6 {
+    background-image: url(../../image/num/mon_06.png);
+    top: 160px;
+    left: 653px;
+}
+
+.pay_monthly_num_pad_6:active {
+    background-image: url(../../image/num/mon_06_r.png);
+}
+
+
+.pay_monthly_num_pad_7 {
+    background-image: url(../../image/num/mon_07.png);
+    top: 308px;
+    left: 216px;
+}
+
+.pay_monthly_num_pad_7:active {
+    background-image: url(../../image/num/mon_07_r.png);
+}
+
+.pay_monthly_num_pad_8 {
+    background-image: url(../../image/num/mon_08.png);
+    top: 308px;
+    left: 434px;
+}
+
+.pay_monthly_num_pad_8:active {
+    background-image: url(../../image/num/mon_08_r.png);
+}
+
+.pay_monthly_num_pad_9 {
+    background-image: url(../../image/num/mon_09.png);
+    top: 308px;
+    left: 653px;
+}
+
+.pay_monthly_num_pad_9:active {
+    background-image: url(../../image/num/mon_09_r.png);
+}
+
+
+.pay_monthly_num_pad_10 {
+    background-image: url(../../image/num/mon_10.png);
+    top: 456px;
+    left: 216px;
+}
+
+.pay_monthly_num_pad_10:active {
+    background-image: url(../../image/num/mon_10_r.png);
+}
+
+.pay_monthly_num_pad_11 {
+    background-image: url(../../image/num/mon_11.png);
+    top: 456px;
+    left: 434px;
+}
+
+.pay_monthly_num_pad_11:active {
+    background-image: url(../../image/num/mon_11_r.png);
+}
+
+.pay_monthly_num_pad_12 {
+    background-image: url(../../image/num/mon_12.png);
+    top: 456px;
+    left: 653px;
+}
+
+.pay_monthly_num_pad_12:active {
+    background-image: url(../../image/num/mon_12_r.png);
+}
+
+.pay_monthly_btn_ok {
+    position: absolute;
+    background-color: transparent;
+    width: 382px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/payment_btn.png);
+    left: 629px;
+}
+
+.pay_monthly_btn_ok:active {
+    background-image: url(../../image/btn/payment_btn_r.png);
+}
+
+
+/* Pay_monthly Page End */
+
+
+
+/* Pay_print Page Start */
+
+
+#pe_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 562px;
+}
+
+#pe_title_img1 {
+    position: relative;
+    left: 65px;
+}
+
+#pe_title_img2 {
+    position: relative;
+    top: 42px;
+    left: 114px;
+    opacity: 1;
+    animation: tsub_img 1s infinite alternate;
+}
+
+#pe_title_img3 {
+    position: relative;
+    top: 93px;
+    left: 137px;
+    width: 810px;
+    height: 291px;
+}
+
+#pe_title_img4 {
+    position: relative;
+    top: 145px;
+    left: 114px;
+    opacity: 1;
+    animation: btn_scale2 2s infinite alternate;
+}
+
+#pe_title_img5 {
+    position: relative;
+    top: 145px;
+    left: 114px;
+    opacity: 1;
+    animation: tsub_img 1s infinite alternate;
+}
+
+
+#pe_title_img_pre {
+    position: absolute;
+    top: 130px;
+    left: 413px;
+    opacity: 1;
+}
+
+#pri_img_1, #pri_img_2, #pri_img_3, #pri_img_4, #pri_img_5,
+#pri_img_1r, #pri_img_2r, #pri_img_3r, #pri_img_4r, #pri_img_5r
+{
+    position: absolute;
+    top: 204px;
+    opacity: 1;
+}
+
+#pri_img_1, #pri_img_1r {
+    left: 105px;
+}
+
+#pri_img_2, #pri_img_2r {
+    left: 290px;
+}
+
+#pri_img_3, #pri_img_3r {
+    left: 475px;
+}
+
+#pri_img_4, #pri_img_4r {
+    left: 660px;
+}
+
+#pri_img_5, #pri_img_5r {
+    left: 845px;
+}
+
+#pri_img_ar1, #pri_img_ar2, #pri_img_ar3, #pri_img_ar4,
+#pri_img_ar1r, #pri_img_ar2r, #pri_img_ar3r, #pri_img_ar4r {
+    position: absolute;
+    top: 275px;
+    opacity: 1;
+}
+
+#pri_img_ar1, #pri_img_ar1r {
+    left: 242px;
+}
+
+#pri_img_ar2, #pri_img_ar2r {
+    left: 427px;
+}
+
+#pri_img_ar3, #pri_img_ar3r {
+    left: 612px;
+}
+
+#pri_img_ar4, #pri_img_ar4r {
+    left: 797px;
+}
+
+#pri_img_1r, #pri_img_2r, #pri_img_3r, #pri_img_4r, #pri_img_5r,
+#pri_img_ar1r, #pri_img_ar2r, #pri_img_ar3r, #pri_img_ar4r
+{
+    animation: print_img 1s infinite alternate;
+}
+
+/* Pay_print Page End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Number Page Start */
+
+#prescription_search_pre_btn,
+#prescription_search_home_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+}
+
+#prescription_search_pre_but,
+#prescription_search_home_but {
+    background-color: transparent;
+    position: relative;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+}
+
+#prescription_search_pre_btn {
+    background-image: url(../../image/btn/no_btn.png);
+    top: 1737px;
+    left: 67px;
+}
+
+#prescription_search_home_btn {
+    background-image: url(../../image/btn/home_btn.png);
+    top: 28px;
+    left: 860px;
+}
+
+#prescription_search_pre_btn:active {
+    background-image: url(../../image/btn/no_btn_r.png);
+}
+
+#prescription_search_home_btn:active {
+    background-image: url(../../image/btn/home_btn_r.png);
+}
+
+
+#prescription_search_n_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 430px;
+}
+
+#prescription_search_n_title_img1 {
+    position: relative;
+}
+
+#prescription_search_n_tsub_img {
+    position: relative;
+    left: 114px;
+    top: 50px;
+    opacity: 0.5;
+    animation: tsub_img 1s infinite alternate;
+}
+
+
+#prescription_search_num_div {
+    position: absolute;
+    width: 1080px;
+    top: 794px;
+}
+
+#prescription_search_num_input {
+    position: absolute;
+    left: 216px;
+}
+
+#prescription_search_num_inputtxt {
+    position: absolute;
+    width: 651px;
+    height: 119px;
+    left: 216px;
+    background-color: transparent;
+
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 3.5em;
+    color: black;
+    line-height: 45px;
+    font-weight: 500;
+    border: 0px;
+    outline: 0px;
+    text-align: center;
+}
+
+#prescription_search_inputtxt,
+#prescription_search_jumin1,
+#prescription_search_jumin2,
+#prescription_search_jumin3 {
+    visibility: hidden;
+}
+
+#prescription_search_num_pad {
+    position: absolute;
+    width: 1080px;
+    height: 626px;
+    top: 160px;
+}
+
+.prescription_search_num_pad_1,
+.prescription_search_num_pad_2,
+.prescription_search_num_pad_3,
+.prescription_search_num_pad_4,
+.prescription_search_num_pad_5,
+.prescription_search_num_pad_6,
+.prescription_search_num_pad_7,
+.prescription_search_num_pad_8,
+.prescription_search_num_pad_9,
+.prescription_search_num_pad_0,
+.prescription_search_num_pad_del,
+.prescription_search_num_pad_dall {
+    position: absolute;
+    background-color: transparent;
+    width: 213px;
+    height: 142px;
+    border: 0px;
+    outline: 0px;
+}
+
+.prescription_search_num_pad_1 {
+    background-image: url(../../image/num/1.png);
+    top: 12px;
+    left: 216px;
+}
+
+.prescription_search_num_pad_1:active {
+    background-image: url(../../image/num/1_r.png);
+}
+
+.prescription_search_num_pad_2 {
+    background-image: url(../../image/num/2.png);
+    top: 12px;
+    left: 434px;
+}
+
+.prescription_search_num_pad_2:active {
+    background-image: url(../../image/num/2_r.png);
+}
+
+.prescription_search_num_pad_3 {
+    background-image: url(../../image/num/3.png);
+    top: 12px;
+    left: 653px;
+}
+
+.prescription_search_num_pad_3:active {
+    background-image: url(../../image/num/3_r.png);
+}
+
+
+.prescription_search_num_pad_4 {
+    background-image: url(../../image/num/4.png);
+    top: 160px;
+    left: 216px;
+}
+
+.prescription_search_num_pad_4:active {
+    background-image: url(../../image/num/4_r.png);
+}
+
+.prescription_search_num_pad_5 {
+    background-image: url(../../image/num/5.png);
+    top: 160px;
+    left: 434px;
+}
+
+.prescription_search_num_pad_5:active {
+    background-image: url(../../image/num/5_r.png);
+}
+
+.prescription_search_num_pad_6 {
+    background-image: url(../../image/num/6.png);
+    top: 160px;
+    left: 653px;
+}
+
+.prescription_search_num_pad_6:active {
+    background-image: url(../../image/num/6_r.png);
+}
+
+
+.prescription_search_num_pad_7 {
+    background-image: url(../../image/num/7.png);
+    top: 308px;
+    left: 216px;
+}
+
+.prescription_search_num_pad_7:active {
+    background-image: url(../../image/num/7_r.png);
+}
+
+.prescription_search_num_pad_8 {
+    background-image: url(../../image/num/8.png);
+    top: 308px;
+    left: 434px;
+}
+
+.prescription_search_num_pad_8:active {
+    background-image: url(../../image/num/8_r.png);
+}
+
+.prescription_search_num_pad_9 {
+    background-image: url(../../image/num/9.png);
+    top: 308px;
+    left: 653px;
+}
+
+.prescription_search_num_pad_9:active {
+    background-image: url(../../image/num/9_r.png);
+}
+
+
+.prescription_search_num_pad_del {
+    background-image: url(../../image/num/del.png);
+    top: 456px;
+    left: 216px;
+}
+
+.prescription_search_num_pad_del:active {
+    background-image: url(../../image/num/del_r.png);
+}
+
+.prescription_search_num_pad_0 {
+    background-image: url(../../image/num/0.png);
+    top: 456px;
+    left: 434px;
+}
+
+.prescription_search_num_pad_0:active {
+    background-image: url(../../image/num/0_r.png);
+}
+
+.prescription_search_num_pad_dall {
+    background-image: url(../../image/num/del_all.png);
+    top: 456px;
+    left: 653px;
+}
+
+.prescription_search_num_pad_dall:active {
+    background-image: url(../../image/num/del_all_r.png);
+}
+
+#prescription_search_con_btn {
+    position: absolute;
+    background-color: black;
+    top: 943px;
+}
+
+.prescription_search_btn_ok {
+    position: absolute;
+    background-color: transparent;
+    width: 382px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/ok_btn.png);
+    left: 629px;
+}
+
+.prescription_search_btn_ok:active {
+    background-image: url(../../image/btn/ok_btn_r.png);
+}
+
+/* Number Page End */
+
+
+
+/* Number Page Start */
+
+#prescription_search_phone_pre_btn,
+#prescription_search_phone_home_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+}
+
+#prescription_search_phone_pre_but,
+#prescription_search_phone_home_but {
+    background-color: transparent;
+    position: relative;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+}
+
+#prescription_search_phone_pre_btn {
+    background-image: url(../../image/btn/no_btn.png);
+    top: 1737px;
+    left: 67px;
+}
+
+#prescription_search_phone_home_btn {
+    background-image: url(../../image/btn/home_btn.png);
+    top: 28px;
+    left: 860px;
+}
+
+#prescription_search_phone_pre_btn:active {
+    background-image: url(../../image/btn/no_btn_r.png);
+}
+
+#prescription_search_phone_home_btn:active {
+    background-image: url(../../image/btn/home_btn_r.png);
+}
+
+
+#prescription_search_phone_n_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 430px;
+}
+
+#prescription_search_phone_n_title_img1 {
+    position: relative;
+}
+
+#prescription_search_phone_n_tsub_img {
+    position: relative;
+    left: 114px;
+    top: 50px;
+    opacity: 0.5;
+    animation: tsub_img 1s infinite alternate;
+}
+
+
+#prescription_search_phone_num_div {
+    position: absolute;
+    width: 1080px;
+    top: 794px;
+}
+
+#prescription_search_phone_num_input {
+    position: absolute;
+    left: 216px;
+}
+
+#prescription_search_phone_num_inputtxt {
+    position: absolute;
+    width: 651px;
+    height: 119px;
+    left: 216px;
+    background-color: transparent;
+
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 3.5em;
+    color: black;
+    line-height: 45px;
+    font-weight: 500;
+    border: 0px;
+    outline: 0px;
+    text-align: center;
+}
+
+#prescription_search_phone_inputtxt,
+#prescription_search_phone_jumin1,
+#prescription_search_phone_jumin2,
+#prescription_search_phone_jumin3 {
+    visibility: hidden;
+}
+
+#prescription_search_phone_num_pad {
+    position: absolute;
+    width: 1080px;
+    height: 626px;
+    top: 160px;
+}
+
+.prescription_search_phone_num_pad_1,
+.prescription_search_phone_num_pad_2,
+.prescription_search_phone_num_pad_3,
+.prescription_search_phone_num_pad_4,
+.prescription_search_phone_num_pad_5,
+.prescription_search_phone_num_pad_6,
+.prescription_search_phone_num_pad_7,
+.prescription_search_phone_num_pad_8,
+.prescription_search_phone_num_pad_9,
+.prescription_search_phone_num_pad_0,
+.prescription_search_phone_num_pad_del,
+.prescription_search_phone_num_pad_dall {
+    position: absolute;
+    background-color: transparent;
+    width: 213px;
+    height: 142px;
+    border: 0px;
+    outline: 0px;
+}
+
+.prescription_search_phone_num_pad_1 {
+    background-image: url(../../image/num/1.png);
+    top: 12px;
+    left: 216px;
+}
+
+.prescription_search_phone_num_pad_1:active {
+    background-image: url(../../image/num/1_r.png);
+}
+
+.prescription_search_phone_num_pad_2 {
+    background-image: url(../../image/num/2.png);
+    top: 12px;
+    left: 434px;
+}
+
+.prescription_search_phone_num_pad_2:active {
+    background-image: url(../../image/num/2_r.png);
+}
+
+.prescription_search_phone_num_pad_3 {
+    background-image: url(../../image/num/3.png);
+    top: 12px;
+    left: 653px;
+}
+
+.prescription_search_phone_num_pad_3:active {
+    background-image: url(../../image/num/3_r.png);
+}
+
+
+.prescription_search_phone_num_pad_4 {
+    background-image: url(../../image/num/4.png);
+    top: 160px;
+    left: 216px;
+}
+
+.prescription_search_phone_num_pad_4:active {
+    background-image: url(../../image/num/4_r.png);
+}
+
+.prescription_search_phone_num_pad_5 {
+    background-image: url(../../image/num/5.png);
+    top: 160px;
+    left: 434px;
+}
+
+.prescription_search_phone_num_pad_5:active {
+    background-image: url(../../image/num/5_r.png);
+}
+
+.prescription_search_phone_num_pad_6 {
+    background-image: url(../../image/num/6.png);
+    top: 160px;
+    left: 653px;
+}
+
+.prescription_search_phone_num_pad_6:active {
+    background-image: url(../../image/num/6_r.png);
+}
+
+
+.prescription_search_phone_num_pad_7 {
+    background-image: url(../../image/num/7.png);
+    top: 308px;
+    left: 216px;
+}
+
+.prescription_search_phone_num_pad_7:active {
+    background-image: url(../../image/num/7_r.png);
+}
+
+.prescription_search_phone_num_pad_8 {
+    background-image: url(../../image/num/8.png);
+    top: 308px;
+    left: 434px;
+}
+
+.prescription_search_phone_num_pad_8:active {
+    background-image: url(../../image/num/8_r.png);
+}
+
+.prescription_search_phone_num_pad_9 {
+    background-image: url(../../image/num/9.png);
+    top: 308px;
+    left: 653px;
+}
+
+.prescription_search_phone_num_pad_9:active {
+    background-image: url(../../image/num/9_r.png);
+}
+
+
+.prescription_search_phone_num_pad_del {
+    background-image: url(../../image/num/del.png);
+    top: 456px;
+    left: 216px;
+}
+
+.prescription_search_phone_num_pad_del:active {
+    background-image: url(../../image/num/del_r.png);
+}
+
+.prescription_search_phone_num_pad_0 {
+    background-image: url(../../image/num/0.png);
+    top: 456px;
+    left: 434px;
+}
+
+.prescription_search_phone_num_pad_0:active {
+    background-image: url(../../image/num/0_r.png);
+}
+
+.prescription_search_phone_num_pad_dall {
+    background-image: url(../../image/num/del_all.png);
+    top: 456px;
+    left: 653px;
+}
+
+.prescription_search_phone_num_pad_dall:active {
+    background-image: url(../../image/num/del_all_r.png);
+}
+
+#prescription_search_phone_con_btn {
+    position: absolute;
+    background-color: black;
+    top: 943px;
+}
+
+.prescription_search_phone_btn_ok {
+    position: absolute;
+    background-color: transparent;
+    width: 382px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/ok_btn.png);
+    left: 629px;
+}
+
+.prescription_search_phone_btn_ok:active {
+    background-image: url(../../image/btn/ok_btn_r.png);
+}
+
+/* Number Page End */
+
+
+
+
+
+
+
+
+
+/* prescription_search_ok Page Start */
+
+#prescription_search_ok_pre_btn,
+#prescription_search_ok_home_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+}
+
+#prescription_search_ok_pre_but,
+#prescription_search_ok_home_but {
+    background-color: transparent;
+    position: relative;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+}
+
+#prescription_search_ok_pre_btn {
+    background-image: url(../../image/btn/no_btn.png);
+    top: 1737px;
+    left: 67px;
+}
+
+#prescription_search_ok_home_btn {
+    background-image: url(../../image/btn/home_btn.png);
+    top: 28px;
+    left: 860px;
+}
+
+#prescription_search_ok_pre_btn:active {
+    background-image: url(../../image/btn/no_btn_r.png);
+}
+
+#prescription_search_ok_home_btn:active {
+    background-image: url(../../image/btn/home_btn_r.png);
+}
+
+
+#prescription_search_ok_n_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 430px;
+}
+
+#prescription_search_ok_n_title_img1 {
+    position: relative;
+}
+
+#prescription_search_ok_n_tsub_img {
+    position: relative;
+    left: 114px;
+    top: 50px;
+    opacity: 0.5;
+    animation: tsub_img 1s infinite alternate;
+}
+
+#prescription_search_ok_n_name_box {
+    position: relative;
+    left: 127px;
+    top: 191px;
+}
+
+#prescription_search_ok_n_num_box {
+    position: relative;
+    left: 127px;
+    top: 255px;
+}
+
+#prescription_search_ok_num_div {
+    position: absolute;
+    width: 1080px;
+    top: 794px;
+}
+
+#prescription_search_ok_num_inputtxt1,
+#prescription_search_ok_num_inputtxt2 {
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 3.5em;
+    color: black;
+    line-height: 45px;
+    font-weight: 500;
+    border: 0px;
+    outline: 0px;
+    text-align: left;
+    position: absolute;
+    width: 495px;
+    height: 119px;
+    left: 420px;
+    background-color: transparent;
+}
+
+#prescription_search_ok_num_inputtxt1 {
+    top: 80px;
+}
+
+#prescription_search_ok_num_inputtxt2 {
+    top: 325px;
+}
+
+#prescription_search_ok_con_btn {
+    position: absolute;
+    background-color: black;
+    top: 943px;
+}
+
+.prescription_search_ok_btn_ok {
+    position: absolute;
+    background-color: transparent;
+    width: 382px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/ok_btn.png);
+    left: 629px;
+}
+
+.prescription_search_ok_btn_ok:active {
+    background-image: url(../../image/btn/ok_btn_r.png);
+}
+
+
+/* prescription_search_ok Page End */
+
+
+
+
+
+/* prescription_term Page Start */
+
+#prescription_term_pre_btn,
+#prescription_term_home_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+}
+
+#prescription_term_pre_but,
+#prescription_term_home_but {
+    background-color: transparent;
+    position: relative;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+}
+
+#prescription_term_pre_btn {
+    background-image: url(../../image/btn/no_btn.png);
+    top: 1737px;
+    left: 67px;
+}
+
+#prescription_term_home_btn {
+    background-image: url(../../image/btn/home_btn.png);
+    top: 28px;
+    left: 860px;
+}
+
+#prescription_term_pre_btn:active {
+    background-image: url(../../image/btn/no_btn_r.png);
+}
+
+#prescription_term_home_btn:active {
+    background-image: url(../../image/btn/home_btn_r.png);
+}
+
+
+#prescription_term_n_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 430px;
+}
+
+#prescription_term_n_title_img1 {
+    position: relative;
+}
+
+#prescription_term_n_tsub_img {
+    position: relative;
+    left: 114px;
+    top: 50px;
+    opacity: 0.5;
+    animation: tsub_img 1s infinite alternate;
+}
+
+#prescription_term_num_div {
+    position: absolute;
+    width: 1080px;
+    top: 794px;
+}
+
+#prescription_term_btn_sec {
+    position: absolute;
+    width: 1080px;
+    top: 5px;
+}
+
+.prescription_term_btn001,
+.prescription_term_btn002,
+.prescription_term_btn003,
+.prescription_term_btn004,
+.prescription_term_btn005 {
+    position: absolute;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    opacity: 0.5;
+}
+
+.prescription_term_btn001 {
+    background-image: url(../../image/btn/term_btn001.png);
+    left: 102px;
+}
+
+.prescription_term_btn002 {
+    background-image: url(../../image/btn/term_btn002.png);
+    left: 283px;
+}
+
+.prescription_term_btn003 {
+    background-image: url(../../image/btn/term_btn003.png);
+    left: 464px;
+}
+
+.prescription_term_btn004 {
+    background-image: url(../../image/btn/term_btn004.png);
+    left: 645px;
+}
+
+.prescription_term_btn005 {
+    background-image: url(../../image/btn/term_btn005.png);
+    left: 826px;
+}
+
+.prescription_term_btn001:active {
+    background-image: url(../../image/btn/term_btn001_r.png);
+}
+
+.prescription_term_btn002:active {
+    background-image: url(../../image/btn/term_btn002_r.png);
+}
+
+.prescription_term_btn003:active {
+    background-image: url(../../image/btn/term_btn003_r.png);
+}
+
+.prescription_term_btn004:active {
+    background-image: url(../../image/btn/term_btn004_r.png);
+}
+
+.prescription_term_btn005:active {
+    background-image: url(../../image/btn/term_btn005_r.png);
+}
+
+#prescription_term_cal_sec {
+    position: absolute;
+    width: 1080px;
+    top: 204px;
+    background-color: transparent;
+}
+
+#cal_01 {
+    position: relative;
+    left: 53px;
+}
+
+#cal_02 {
+    position: relative;
+    left: 75px;
+}
+
+#prescription_term_inputtxt1,
+#prescription_term_inputtxt2 {
+    position: fixed;
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 2em;
+    color: black;
+    line-height: 45px;
+    font-weight: 500;
+    border: 0px;
+    outline: 0px;
+    text-align: center;
+    width: 450px;
+    height: 119px;
+    left: 61px;
+    background-color: transparent;
+    top: 1200px;
+}
+
+#prescription_term_inputtxt2 {
+    left: 563px;
+}
+
+#prescription_term_inputtxt3,
+#prescription_term_inputtxt4 {
+    position: relative;
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 3em;
+    color: gray;
+    line-height: 45px;
+    font-weight: 700;
+    border: 3px solid gray;
+    outline: 0px;
+    text-align: center;
+    width: 330px;
+    left: 50px;
+    background-color: transparent;
+    top: 100px;
+}
+
+#prescription_term_inputtxt4 {
+    left: 563px;
+}
+
+
+
+#prescription_term_fromDate, #prescription_term_toDate {
+    position: absolute;
+    top: 73px;
+}
+
+#prescription_term_fromDate {
+    left: 92px;
+}
+#prescription_term_toDate {
+    left: 592px;
+}
+
+#prescription_term_fromDate_cover {
+    position: absolute;
+    background-color: transparent;
+    background-image: url(../../image/date_cover.png);
+    width: 437px;
+    height: 424px;
+    top: 68px;
+    left: 71px;
+    display: none;
+}
+
+#prescription_term_toDate_cover {
+    position: absolute;
+    background-color: transparent;
+    background-image: url(../../image/date_cover.png);
+    width: 437px;
+    height: 424px;
+    top: 68px;
+    left: 571px;
+    display: none;
+}
+
+#prescription_term_con_btn {
+    position: absolute;
+    top: 943px;
+    background-color: transparent;
+}
+
+.prescription_term_btn_ok {
+    position: absolute;
+    background-color: transparent;
+    width: 382px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/ok_btn.png);
+    left: 629px;
+}
+
+.prescription_term_btn_ok:active {
+    background-image: url(../../image/btn/ok_btn_r.png);
+}
+
+.prescription_term_btn_reload {
+    position: relative;
+    background-color: transparent;
+    width: 382px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/re_btn.png);
+    left: 347px;
+    top: 540px;
+    display: none;
+}
+
+.prescription_term_btn_reload:active {
+    background-image: url(../../image/btn/re_btn_r.png);
+}
+
+/* prescription_term Page End */
+
+
+
+
+
+
+ 
+/* prescription_list Page Start */
+
+#prescription_list_pre_btn,
+#prescription_list_home_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+}
+
+#prescription_list_pre_but,
+#prescription_list_home_but {
+    background-color: transparent;
+    position: relative;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+}
+
+#prescription_list_pre_btn {
+    background-image: url(../../image/btn/no_btn.png);
+    top: 1737px;
+    left: 67px;
+}
+
+#prescription_list_home_btn {
+    background-image: url(../../image/btn/home_btn.png);
+    top: 28px;
+    left: 860px;
+}
+
+#prescription_list_pre_btn:active {
+    background-image: url(../../image/btn/no_btn_r.png);
+}
+
+#prescription_list_home_btn:active {
+    background-image: url(../../image/btn/home_btn_r.png);
+}
+
+
+#prescription_list_n_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 430px;
+}
+
+#prescription_list_n_title_img1 {
+    position: relative;
+}
+
+#prescription_list_n_tsub_img {
+    position: relative;
+    left: 114px;
+    top: 50px;
+    opacity: 0.5;
+    animation: tsub_img 1s infinite alternate;
+}
+
+
+#prescription_list_doc_title_div {
+    position: absolute;
+    width: 879px;
+    left: 45px;
+/*    left: 103px;*/
+    top: 763px;
+}
+
+.prescription_list_view {
+    width: 879px;
+    height: 950px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.prescription_list_scrollBlind {
+    width: 1200px;
+    height: 100%;
+    overflow-y: hidden;
+    background-color: transparent;
+}
+
+.prescription_list_doc_ul {
+    position: relative;
+    width: 880px;
+    top: 0px;
+}
+
+#prescription_list_doc_but {
+    width: 879px;
+    height: 192px;
+    line-height: 50px;
+    background-image: url(../../image/doc_back03.png);
+    background-color: transparent;
+    border: 0px;
+    outline: 0px;
+}
+
+/*
+#prescription_list_doc_but:active {
+    background-image: url(../../image/doc_back02.png);
+} 
+*/
+.prescription_list_doc_txt0 {
+    position: relative;
+    float: left;
+    text-align: center;
+    vertical-align: text-top;
+    background-color: transparent;
+    font-size: 1em;
+    color: black;
+    outline: 0px;
+    border: 0px;
+    width: 145px;
+    top: 5px;
+    left: 10px;
+    visibility: hidden;
+}
+
+#prescription_list_text_box1 {
+    position: relative;
+    float: left;
+    top: 32px;
+    left: 40px;
+    width: 160px;
+    height: 100px;
+}
+
+#prescription_list_text_box2 {
+    position: relative;
+    float: left;
+    top: 32px;
+    left: 207px;
+    width: 160px;
+    height: 100px;
+}
+
+.prescription_list_doc_txt1,
+.prescription_list_doc_txt2,
+.prescription_list_doc_txt3,
+.prescription_list_doc_txt4 {
+    position: relative;
+    float: left;
+    vertical-align: text-top;
+    height: 39px;
+    background-color: transparent;
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 1.3em;
+    line-height: 50px;
+    color: black;
+    border: 0px;
+    outline: 0px;
+    resize: none;
+    top: 0px;
+    text-align: center;
+    width: 145px;
+}
+
+.prescription_list_doc_sbut {
+    position: relative;
+    background-color: transparent;
+    width: 112px;
+    height: 112px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/doc_presbtn.png);
+    top: 25px;
+    left: 245px;
+    /*    left: 370px;*/
+}
+
+.prescription_list_doc_sbut:active {
+    background-image: url(../../image/btn/doc_presbtn_r.png);
+}
+
+
+#prescription_list_counttxt {
+    position: relative;
+    text-align: center;
+    vertical-align: text-top;
+    float: right;
+    top: 138px;
+    right: 0px;
+    width: 142px;
+    height: 50px;
+    background-color: transparent;
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 1em;
+    line-height: 50px;
+    color: gray;
+    border: 0px;
+    outline: 0px;
+    resize: none;
+}
+
+
+#prescription_list_doc_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 100px;
+    height: 500px;
+    top: 955px;
+    left: 935px;
+}
+
+.prescription_list_doc_but_up {
+    background-color: transparent;
+    position: relative;
+    width: 100px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/up_btn_n.png);
+}
+
+.prescription_list_doc_but_down {
+    background-color: transparent;
+    position: relative;
+    width: 100px;
+    border: 0px;
+    outline: 0px;
+    top: 18px;
+    background-image: url(../../image/btn/down_btn_n.png);
+}
+
+#prescription_list_doc_btn_up {
+    position: relative;
+    top: 0px;
+    width: 100px;
+    height: 241px;
+    background-color: transparent;
+    background-image: url(../../image/btn/up_btn.png);
+    border: 0px;
+    outline: 0px;
+}
+
+#prescription_list_doc_btn_up:active {
+    background-image: url(../../image/btn/up_btn_r.png);
+}
+
+#prescription_list_doc_btn_down {
+    position: relative;
+    width: 100px;
+    height: 241px;
+    background-color: transparent;
+    background-image: url(../../image/btn/down_btn.png);
+    border: 0px;
+    outline: 0px;
+}
+
+#prescription_list_doc_btn_down:active {
+    background-image: url(../../image/btn/down_btn_r.png);
+}
+
+
+/* prescription_list Page End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Number Page Start */
+
+#accept_search_pre_btn,
+#accept_search_home_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+}
+
+#accept_search_pre_but,
+#accept_search_home_but {
+    background-color: transparent;
+    position: relative;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+}
+
+#accept_search_pre_btn {
+    background-image: url(../../image/btn/no_btn.png);
+    top: 1737px;
+    left: 67px;
+}
+
+#accept_search_home_btn {
+    background-image: url(../../image/btn/home_btn.png);
+    top: 28px;
+    left: 860px;
+}
+
+#accept_search_pre_btn:active {
+    background-image: url(../../image/btn/no_btn_r.png);
+}
+
+#accept_search_home_btn:active {
+    background-image: url(../../image/btn/home_btn_r.png);
+}
+
+
+#accept_search_n_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 430px;
+}
+
+#accept_search_n_title_img1 {
+    position: relative;
+}
+
+#accept_search_n_tsub_img {
+    position: relative;
+    left: 114px;
+    top: 50px;
+    opacity: 0.5;
+    animation: tsub_img 1s infinite alternate;
+}
+
+
+#accept_search_num_div {
+    position: absolute;
+    width: 1080px;
+    top: 794px;
+}
+
+#accept_search_num_input {
+    position: absolute;
+    left: 216px;
+}
+
+#accept_search_num_inputtxt {
+    position: absolute;
+    width: 651px;
+    height: 119px;
+    left: 216px;
+    background-color: transparent;
+
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 3.5em;
+    color: black;
+    line-height: 45px;
+    font-weight: 500;
+    border: 0px;
+    outline: 0px;
+    text-align: center;
+}
+
+#accept_search_inputtxt,
+#accept_search_jumin1,
+#accept_search_jumin2,
+#accept_search_jumin3 {
+    visibility: hidden;
+}
+
+#accept_search_num_pad {
+    position: absolute;
+    width: 1080px;
+    height: 626px;
+    top: 160px;
+}
+
+.accept_search_num_pad_1,
+.accept_search_num_pad_2,
+.accept_search_num_pad_3,
+.accept_search_num_pad_4,
+.accept_search_num_pad_5,
+.accept_search_num_pad_6,
+.accept_search_num_pad_7,
+.accept_search_num_pad_8,
+.accept_search_num_pad_9,
+.accept_search_num_pad_0,
+.accept_search_num_pad_del,
+.accept_search_num_pad_dall {
+    position: absolute;
+    background-color: transparent;
+    width: 213px;
+    height: 142px;
+    border: 0px;
+    outline: 0px;
+}
+
+.accept_search_num_pad_1 {
+    background-image: url(../../image/num/1.png);
+    top: 12px;
+    left: 216px;
+}
+
+.accept_search_num_pad_1:active {
+    background-image: url(../../image/num/1_r.png);
+}
+
+.accept_search_num_pad_2 {
+    background-image: url(../../image/num/2.png);
+    top: 12px;
+    left: 434px;
+}
+
+.accept_search_num_pad_2:active {
+    background-image: url(../../image/num/2_r.png);
+}
+
+.accept_search_num_pad_3 {
+    background-image: url(../../image/num/3.png);
+    top: 12px;
+    left: 653px;
+}
+
+.accept_search_num_pad_3:active {
+    background-image: url(../../image/num/3_r.png);
+}
+
+
+.accept_search_num_pad_4 {
+    background-image: url(../../image/num/4.png);
+    top: 160px;
+    left: 216px;
+}
+
+.accept_search_num_pad_4:active {
+    background-image: url(../../image/num/4_r.png);
+}
+
+.accept_search_num_pad_5 {
+    background-image: url(../../image/num/5.png);
+    top: 160px;
+    left: 434px;
+}
+
+.accept_search_num_pad_5:active {
+    background-image: url(../../image/num/5_r.png);
+}
+
+.accept_search_num_pad_6 {
+    background-image: url(../../image/num/6.png);
+    top: 160px;
+    left: 653px;
+}
+
+.accept_search_num_pad_6:active {
+    background-image: url(../../image/num/6_r.png);
+}
+
+
+.accept_search_num_pad_7 {
+    background-image: url(../../image/num/7.png);
+    top: 308px;
+    left: 216px;
+}
+
+.accept_search_num_pad_7:active {
+    background-image: url(../../image/num/7_r.png);
+}
+
+.accept_search_num_pad_8 {
+    background-image: url(../../image/num/8.png);
+    top: 308px;
+    left: 434px;
+}
+
+.accept_search_num_pad_8:active {
+    background-image: url(../../image/num/8_r.png);
+}
+
+.accept_search_num_pad_9 {
+    background-image: url(../../image/num/9.png);
+    top: 308px;
+    left: 653px;
+}
+
+.accept_search_num_pad_9:active {
+    background-image: url(../../image/num/9_r.png);
+}
+
+
+.accept_search_num_pad_del {
+    background-image: url(../../image/num/del.png);
+    top: 456px;
+    left: 216px;
+}
+
+.accept_search_num_pad_del:active {
+    background-image: url(../../image/num/del_r.png);
+}
+
+.accept_search_num_pad_0 {
+    background-image: url(../../image/num/0.png);
+    top: 456px;
+    left: 434px;
+}
+
+.accept_search_num_pad_0:active {
+    background-image: url(../../image/num/0_r.png);
+}
+
+.accept_search_num_pad_dall {
+    background-image: url(../../image/num/del_all.png);
+    top: 456px;
+    left: 653px;
+}
+
+.accept_search_num_pad_dall:active {
+    background-image: url(../../image/num/del_all_r.png);
+}
+
+#accept_search_con_btn {
+    position: absolute;
+    background-color: black;
+    top: 943px;
+}
+
+.accept_search_btn_ok {
+    position: absolute;
+    background-color: transparent;
+    width: 382px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/ok_btn.png);
+    left: 629px;
+}
+
+.accept_search_btn_ok:active {
+    background-image: url(../../image/btn/ok_btn_r.png);
+}
+
+/* Number Page End */
+
+
+
+
+
+
+/* Number Page Start */
+
+#accept_search_phone_pre_btn,
+#accept_search_phone_home_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+}
+
+#accept_search_phone_pre_but,
+#accept_search_phone_home_but {
+    background-color: transparent;
+    position: relative;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+}
+
+#accept_search_phone_pre_btn {
+    background-image: url(../../image/btn/no_btn.png);
+    top: 1737px;
+    left: 67px;
+}
+
+#accept_search_phone_home_btn {
+    background-image: url(../../image/btn/home_btn.png);
+    top: 28px;
+    left: 860px;
+}
+
+#accept_search_phone_pre_btn:active {
+    background-image: url(../../image/btn/no_btn_r.png);
+}
+
+#accept_search_phone_home_btn:active {
+    background-image: url(../../image/btn/home_btn_r.png);
+}
+
+
+#accept_search_phone_n_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 430px;
+}
+
+#accept_search_phone_n_title_img1 {
+    position: relative;
+}
+
+#accept_search_phone_n_tsub_img {
+    position: relative;
+    left: 114px;
+    top: 50px;
+    opacity: 0.5;
+    animation: tsub_img 1s infinite alternate;
+}
+
+
+#accept_search_phone_num_div {
+    position: absolute;
+    width: 1080px;
+    top: 794px;
+}
+
+#accept_search_phone_num_input {
+    position: absolute;
+    left: 216px;
+}
+
+#accept_search_phone_num_inputtxt {
+    position: absolute;
+    width: 651px;
+    height: 119px;
+    left: 216px;
+    background-color: transparent;
+
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 3.5em;
+    color: black;
+    line-height: 45px;
+    font-weight: 500;
+    border: 0px;
+    outline: 0px;
+    text-align: center;
+}
+
+#accept_search_phone_inputtxt,
+#accept_search_phone_jumin1,
+#accept_search_phone_jumin2,
+#accept_search_phone_jumin3 {
+    visibility: hidden;
+}
+
+#accept_search_phone_num_pad {
+    position: absolute;
+    width: 1080px;
+    height: 626px;
+    top: 160px;
+}
+
+.accept_search_phone_num_pad_1,
+.accept_search_phone_num_pad_2,
+.accept_search_phone_num_pad_3,
+.accept_search_phone_num_pad_4,
+.accept_search_phone_num_pad_5,
+.accept_search_phone_num_pad_6,
+.accept_search_phone_num_pad_7,
+.accept_search_phone_num_pad_8,
+.accept_search_phone_num_pad_9,
+.accept_search_phone_num_pad_0,
+.accept_search_phone_num_pad_del,
+.accept_search_phone_num_pad_dall {
+    position: absolute;
+    background-color: transparent;
+    width: 213px;
+    height: 142px;
+    border: 0px;
+    outline: 0px;
+}
+
+.accept_search_phone_num_pad_1 {
+    background-image: url(../../image/num/1.png);
+    top: 12px;
+    left: 216px;
+}
+
+.accept_search_phone_num_pad_1:active {
+    background-image: url(../../image/num/1_r.png);
+}
+
+.accept_search_phone_num_pad_2 {
+    background-image: url(../../image/num/2.png);
+    top: 12px;
+    left: 434px;
+}
+
+.accept_search_phone_num_pad_2:active {
+    background-image: url(../../image/num/2_r.png);
+}
+
+.accept_search_phone_num_pad_3 {
+    background-image: url(../../image/num/3.png);
+    top: 12px;
+    left: 653px;
+}
+
+.accept_search_phone_num_pad_3:active {
+    background-image: url(../../image/num/3_r.png);
+}
+
+
+.accept_search_phone_num_pad_4 {
+    background-image: url(../../image/num/4.png);
+    top: 160px;
+    left: 216px;
+}
+
+.accept_search_phone_num_pad_4:active {
+    background-image: url(../../image/num/4_r.png);
+}
+
+.accept_search_phone_num_pad_5 {
+    background-image: url(../../image/num/5.png);
+    top: 160px;
+    left: 434px;
+}
+
+.accept_search_phone_num_pad_5:active {
+    background-image: url(../../image/num/5_r.png);
+}
+
+.accept_search_phone_num_pad_6 {
+    background-image: url(../../image/num/6.png);
+    top: 160px;
+    left: 653px;
+}
+
+.accept_search_phone_num_pad_6:active {
+    background-image: url(../../image/num/6_r.png);
+}
+
+
+.accept_search_phone_num_pad_7 {
+    background-image: url(../../image/num/7.png);
+    top: 308px;
+    left: 216px;
+}
+
+.accept_search_phone_num_pad_7:active {
+    background-image: url(../../image/num/7_r.png);
+}
+
+.accept_search_phone_num_pad_8 {
+    background-image: url(../../image/num/8.png);
+    top: 308px;
+    left: 434px;
+}
+
+.accept_search_phone_num_pad_8:active {
+    background-image: url(../../image/num/8_r.png);
+}
+
+.accept_search_phone_num_pad_9 {
+    background-image: url(../../image/num/9.png);
+    top: 308px;
+    left: 653px;
+}
+
+.accept_search_phone_num_pad_9:active {
+    background-image: url(../../image/num/9_r.png);
+}
+
+
+.accept_search_phone_num_pad_del {
+    background-image: url(../../image/num/del.png);
+    top: 456px;
+    left: 216px;
+}
+
+.accept_search_phone_num_pad_del:active {
+    background-image: url(../../image/num/del_r.png);
+}
+
+.accept_search_phone_num_pad_0 {
+    background-image: url(../../image/num/0.png);
+    top: 456px;
+    left: 434px;
+}
+
+.accept_search_phone_num_pad_0:active {
+    background-image: url(../../image/num/0_r.png);
+}
+
+.accept_search_phone_num_pad_dall {
+    background-image: url(../../image/num/del_all.png);
+    top: 456px;
+    left: 653px;
+}
+
+.accept_search_phone_num_pad_dall:active {
+    background-image: url(../../image/num/del_all_r.png);
+}
+
+#accept_search_phone_con_btn {
+    position: absolute;
+    background-color: black;
+    top: 943px;
+}
+
+.accept_search_phone_btn_ok {
+    position: absolute;
+    background-color: transparent;
+    width: 382px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/ok_btn.png);
+    left: 629px;
+}
+
+.accept_search_phone_btn_ok:active {
+    background-image: url(../../image/btn/ok_btn_r.png);
+}
+
+/* Number Page End */
+
+
+
+
+
+
+
+
+/* accept_search_ok Page Start */
+
+#accept_search_ok_pre_btn,
+#accept_search_ok_home_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+}
+
+#accept_search_ok_pre_but,
+#accept_search_ok_home_but {
+    background-color: transparent;
+    position: relative;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+}
+
+#accept_search_ok_pre_btn {
+    background-image: url(../../image/btn/no_btn.png);
+    top: 1737px;
+    left: 67px;
+}
+
+#accept_search_ok_home_btn {
+    background-image: url(../../image/btn/home_btn.png);
+    top: 28px;
+    left: 860px;
+}
+
+#accept_search_ok_pre_btn:active {
+    background-image: url(../../image/btn/no_btn_r.png);
+}
+
+#accept_search_ok_home_btn:active {
+    background-image: url(../../image/btn/home_btn_r.png);
+}
+
+
+#accept_search_ok_n_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 430px;
+}
+
+#accept_search_ok_n_title_img1 {
+    position: relative;
+}
+
+#accept_search_ok_n_tsub_img {
+    position: relative;
+    left: 114px;
+    top: 50px;
+    opacity: 0.5;
+    animation: tsub_img 1s infinite alternate;
+}
+
+#accept_search_ok_n_name_box {
+    position: relative;
+    left: 127px;
+    top: 191px;
+}
+
+#accept_search_ok_n_num_box {
+    position: relative;
+    left: 127px;
+    top: 255px;
+}
+
+#accept_search_ok_num_div {
+    position: absolute;
+    width: 1080px;
+    top: 794px;
+}
+
+#accept_search_ok_num_inputtxt1,
+#accept_search_ok_num_inputtxt2 {
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 3.5em;
+    color: black;
+    line-height: 45px;
+    font-weight: 500;
+    border: 0px;
+    outline: 0px;
+    text-align: left;
+    position: absolute;
+    width: 495px;
+    height: 119px;
+    left: 420px;
+    background-color: transparent;
+}
+
+#accept_search_ok_num_inputtxt1 {
+    top: 80px;
+}
+
+#accept_search_ok_num_inputtxt2 {
+    top: 325px;
+}
+
+#accept_search_ok_con_btn {
+    position: absolute;
+    background-color: black;
+    top: 943px;
+}
+
+.accept_search_ok_btn_ok {
+    position: absolute;
+    background-color: transparent;
+    width: 382px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/ok_btn.png);
+    left: 629px;
+}
+
+.accept_search_ok_btn_ok:active {
+    background-image: url(../../image/btn/ok_btn_r.png);
+}
+
+
+/* accept_search_ok Page End */
+
+
+
+/* prescription_term Page Start */
+
+#accept_select_pre_btn,
+#accept_select_home_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+}
+
+#accept_select_pre_but,
+#accept_select_home_but {
+    background-color: transparent;
+    position: relative;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+}
+
+#accept_select_pre_btn {
+    background-image: url(../../image/btn/no_btn.png);
+    top: 1737px;
+    left: 67px;
+}
+
+#accept_select_home_btn {
+    background-image: url(../../image/btn/home_btn.png);
+    top: 28px;
+    left: 860px;
+}
+
+#accept_select_pre_btn:active {
+    background-image: url(../../image/btn/no_btn_r.png);
+}
+
+#accept_select_home_btn:active {
+    background-image: url(../../image/btn/home_btn_r.png);
+}
+
+
+#accept_select_n_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 430px;
+}
+
+#accept_select_n_title_img1 {
+    position: relative;
+}
+
+#accept_select_n_tsub_img {
+    position: relative;
+    left: 114px;
+    top: 50px;
+    opacity: 0.5;
+    animation: tsub_img 1s infinite alternate;
+}
+
+#accept_select_num_div {
+    position: absolute;
+    width: 1080px;
+    top: 794px;
+}
+
+#accept_select_btn_sec {
+    position: absolute;
+    width: 1080px;
+    top: 5px;
+}
+
+
+
+
+#accept_select_re_btn {
+    position: relative;
+    top: 50px;
+    left: 53px;
+    width: 473px;
+    height: 513px;
+    float: left;
+}
+
+#accept_select_to_btn {
+    position: relative;
+    top: 50px;
+    left: 80px;
+    width: 473px;
+    height: 513px;
+    float: left;
+}
+
+
+
+#accept_select_re_but,
+#accept_select_to_but {
+    background-color: transparent;
+    position: relative;
+    width: 473px;
+    height: 513px;
+    border: 0px;
+    outline: 0px;
+}
+
+#accept_select_re_btn {
+    background-image: url(../../image/btn/select_btn001.png);
+}
+
+#accept_select_to_btn {
+    background-image: url(../../image/btn/select_btn002.png);
+}
+
+#accept_select_re_btn:active {
+    background-image: url(../../image/btn/select_btn001r.png);
+}
+
+#accept_select_to_btn:active {
+    background-image: url(../../image/btn/select_btn002r.png);
+}
+
+
+#accept_select_con_btn {
+    position: absolute;
+    top: 943px;
+}
+
+.accept_select_btn_ok {
+    position: absolute;
+    background-color: transparent;
+    width: 382px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/ok_btn.png);
+    left: 629px;
+    display: none;
+}
+
+.accept_select_btn_ok:active {
+    background-image: url(../../image/btn/ok_btn_r.png);
+}
+
+.accept_select_btn_reload {
+    position: absolute;
+    background-color: transparent;
+    width: 382px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/re_btn.png);
+    left: 347px;
+    top: 540px;
+    display: none;
+}
+
+.accept_select_btn_reload:active {
+    background-image: url(../../image/btn/re_btn_r.png);
+}
+
+/* prescription_term Page End */
+
+
+
+
+
+ 
+/* accept_reserve_select Page Start */
+
+#accept_reserve_select_pre_btn,
+#accept_reserve_select_home_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+}
+
+#accept_reserve_select_pre_but,
+#accept_reserve_select_home_but {
+    background-color: transparent;
+    position: relative;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+}
+
+#accept_reserve_select_pre_btn {
+    background-image: url(../../image/btn/no_btn.png);
+    top: 1737px;
+    left: 67px;
+}
+
+#accept_reserve_select_home_btn {
+    background-image: url(../../image/btn/home_btn.png);
+    top: 28px;
+    left: 860px;
+}
+
+#accept_reserve_select_pre_btn:active {
+    background-image: url(../../image/btn/no_btn_r.png);
+}
+
+#accept_reserve_select_home_btn:active {
+    background-image: url(../../image/btn/home_btn_r.png);
+}
+
+
+#accept_reserve_select_n_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 430px;
+}
+
+#accept_reserve_select_n_title_img1 {
+    position: relative;
+}
+
+#accept_reserve_select_n_tsub_img {
+    position: relative;
+    left: 114px;
+    top: 50px;
+    opacity: 0.5;
+    animation: tsub_img 1s infinite alternate;
+}
+
+
+#accept_reserve_select_doc_title_div {
+    position: absolute;
+    width: 879px;
+    left: 45px;
+/*    left: 103px;*/
+    top: 763px;
+}
+
+.accept_reserve_select_view {
+    width: 879px;
+    height: 950px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.accept_reserve_select_scrollBlind {
+    width: 1200px;
+    height: 100%;
+    overflow-y: hidden;
+    background-color: transparent;
+}
+
+.accept_reserve_select_doc_ul {
+    position: relative;
+    width: 880px;
+    top: 0px;
+}
+
+#accept_reserve_select_doc_but {
+    width: 879px;
+    height: 192px;
+    line-height: 50px;
+    background-image: url(../../image/acc_back01.png);
+    background-color: transparent;
+    border: 0px;
+    outline: 0px;
+}
+
+/*
+#accept_reserve_select_doc_but:active {
+    background-image: url(../../image/doc_back02.png);
+} 
+*/
+.accept_reserve_select_doc_txt0 {
+    position: relative;
+    float: left;
+    text-align: center;
+    vertical-align: text-top;
+    background-color: transparent;
+    font-size: 1em;
+    color: black;
+    outline: 0px;
+    border: 0px;
+    width: 145px;
+    top: 5px;
+    left: 10px;
+}
+
+#accept_reserve_select_text_box1 {
+    position: relative;
+    float: left;
+    top: 32px;
+    left: 40px;
+    width: 160px;
+    height: 100px;
+}
+
+#accept_reserve_select_text_box2 {
+    position: relative;
+    float: left;
+    top: 32px;
+    left: 207px;
+    width: 160px;
+    height: 100px;
+}
+
+.accept_reserve_select_doc_txt1,
+.accept_reserve_select_doc_txt2,
+.accept_reserve_select_doc_txt3,
+.accept_reserve_select_doc_txt4 {
+    position: relative;
+    float: left;
+    vertical-align: text-top;
+    height: 39px;
+    background-color: transparent;
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 1.3em;
+    line-height: 50px;
+    color: black;
+    border: 0px;
+    outline: 0px;
+    resize: none;
+    top: 3px;
+    text-align: center;
+    width: 145px;
+}
+
+.accept_reserve_select_doc_sbut {
+    position: relative;
+    background-color: transparent;
+    width: 112px;
+    height: 112px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/doc_presbtn.png);
+    top: 25px;
+    left: 245px;
+    /*    left: 370px;*/
+}
+
+.accept_reserve_select_doc_sbut:active {
+    background-image: url(../../image/btn/doc_presbtn_r.png);
+}
+
+
+#accept_reserve_select_counttxt {
+    position: relative;
+    text-align: center;
+    vertical-align: text-top;
+    float: right;
+    top: 138px;
+    right: 0px;
+    width: 142px;
+    height: 50px;
+    background-color: transparent;
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 1em;
+    line-height: 50px;
+    color: gray;
+    border: 0px;
+    outline: 0px;
+    resize: none;
+}
+
+
+#accept_reserve_select_doc_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 100px;
+    height: 500px;
+    top: 955px;
+    left: 935px;
+}
+
+.accept_reserve_select_doc_but_up {
+    background-color: transparent;
+    position: relative;
+    width: 100px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/up_btn_n.png);
+}
+
+.accept_reserve_select_doc_but_down {
+    background-color: transparent;
+    position: relative;
+    width: 100px;
+    border: 0px;
+    outline: 0px;
+    top: 18px;
+    background-image: url(../../image/btn/down_btn_n.png);
+}
+
+#accept_reserve_select_doc_btn_up {
+    position: relative;
+    top: 0px;
+    width: 100px;
+    height: 241px;
+    background-color: transparent;
+    background-image: url(../../image/btn/up_btn.png);
+    border: 0px;
+    outline: 0px;
+}
+
+#accept_reserve_select_doc_btn_up:active {
+    background-image: url(../../image/btn/up_btn_r.png);
+}
+
+#accept_reserve_select_doc_btn_down {
+    position: relative;
+    width: 100px;
+    height: 241px;
+    background-color: transparent;
+    background-image: url(../../image/btn/down_btn.png);
+    border: 0px;
+    outline: 0px;
+}
+
+#accept_reserve_select_doc_btn_down:active {
+    background-image: url(../../image/btn/down_btn_r.png);
+}
+
+
+/* accept_reserve_select Page End */
+
+
+
+
+
+
+/* accept_reserve_select_ok Page Start */
+
+#accept_reserve_select_ok_pre_btn,
+#accept_reserve_select_ok_home_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+}
+
+#accept_reserve_select_ok_pre_but,
+#accept_reserve_select_ok_home_but {
+    background-color: transparent;
+    position: relative;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+}
+
+#accept_reserve_select_ok_pre_btn {
+    background-image: url(../../image/btn/no_btn.png);
+    top: 1737px;
+    left: 67px;
+}
+
+#accept_reserve_select_ok_home_btn {
+    background-image: url(../../image/btn/home_btn.png);
+    top: 28px;
+    left: 860px;
+}
+
+#accept_reserve_select_ok_pre_btn:active {
+    background-image: url(../../image/btn/no_btn_r.png);
+}
+
+#accept_reserve_select_ok_home_btn:active {
+    background-image: url(../../image/btn/home_btn_r.png);
+}
+
+
+#accept_reserve_select_ok_n_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 430px;
+}
+
+#accept_reserve_select_ok_n_title_img1 {
+    position: relative;
+}
+
+#accept_reserve_select_ok_n_tsub_img {
+    position: relative;
+    left: 114px;
+    top: 50px;
+    opacity: 0.5;
+    animation: tsub_img 1s infinite alternate;
+}
+
+#accept_reserve_select_ok_n_box1 {
+    position: relative;
+    left: 127px;
+    top: 191px;
+}
+
+#accept_reserve_select_ok_n_box2 {
+    position: relative;
+    left: 127px;
+    top: 221px;
+}
+
+#accept_reserve_select_ok_n_box3 {
+    position: relative;
+    left: 127px;
+    top: 251px;
+}
+
+#accept_reserve_select_ok_n_box4 {
+    position: relative;
+    left: 127px;
+    top: 281px;
+}
+
+#accept_reserve_select_ok_num_div {
+    position: absolute;
+    width: 1080px;
+    top: 794px;
+}
+
+#accept_reserve_select_ok_num_inputtxt1,
+#accept_reserve_select_ok_num_inputtxt2,
+#accept_reserve_select_ok_num_inputtxt3,
+#accept_reserve_select_ok_num_inputtxt4 {
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 3.5em;
+    color: black;
+    line-height: 45px;
+    font-weight: 500;
+    border: 0px;
+    outline: 0px;
+    text-align: left;
+    position: absolute;
+    width: 495px;
+    height: 119px;
+    left: 420px;
+    background-color: transparent;
+}
+
+#accept_reserve_select_ok_num_inputtxt1 {
+    top: 63px;
+}
+
+#accept_reserve_select_ok_num_inputtxt2 {
+    top: 238px;
+}
+
+#accept_reserve_select_ok_num_inputtxt3 {
+    top: 413px;
+}
+
+#accept_reserve_select_ok_num_inputtxt4 {
+    top: 588px;
+}
+
+#accept_reserve_select_ok_con_btn {
+    position: absolute;
+    background-color: black;
+    top: 943px;
+}
+
+.accept_reserve_select_ok_btn_ok {
+    position: absolute;
+    background-color: transparent;
+    width: 382px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/ok_btn.png);
+    left: 629px;
+}
+
+.accept_reserve_select_ok_btn_ok:active {
+    background-image: url(../../image/btn/ok_btn_r.png);
+}
+
+
+/* accept_reserve_select_ok Page End */
+
+
+
+
+
+
+
+
+/* accept_today_select Page Start */
+
+#accept_today_select_pre_btn,
+#accept_today_select_home_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+}
+
+#accept_today_select_pre_but,
+#accept_today_select_home_but {
+    background-color: transparent;
+    position: relative;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+}
+
+#accept_today_select_pre_btn {
+    background-image: url(../../image/btn/no_btn.png);
+    top: 1737px;
+    left: 67px;
+}
+
+#accept_today_select_home_btn {
+    background-image: url(../../image/btn/home_btn.png);
+    top: 28px;
+    left: 860px;
+}
+
+#accept_today_select_pre_btn:active {
+    background-image: url(../../image/btn/no_btn_r.png);
+}
+
+#accept_today_select_home_btn:active {
+    background-image: url(../../image/btn/home_btn_r.png);
+}
+
+
+#accept_today_select_n_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 430px;
+}
+
+#accept_today_select_n_title_img1 {
+    position: relative;
+}
+
+#accept_today_select_n_tsub_img {
+    position: relative;
+    left: 114px;
+    top: 50px;
+    opacity: 0.5;
+    animation: tsub_img 1s infinite alternate;
+}
+
+
+#accept_today_select_doc_title_div {
+    position: absolute;
+    width: 879px;
+    left: 45px;
+/*    left: 103px;*/
+    top: 763px;
+}
+
+.accept_today_select_view1 {
+    width: 879px;
+    height: 875px;
+    position: absolute;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.accept_today_select_view2 {
+    width: 680px;
+    height: 875px;
+    position: absolute;
+    overflow: hidden;
+    pointer-events: none;
+    background-color: transparent;
+}
+
+.accept_today_select_scrollBlind1 {
+    width: 1200px;
+    height: 100%;
+    overflow-y: hidden;
+    background-color: transparent;
+}
+
+.accept_today_select_scrollBlind2 {
+    width: 880px;
+    height: 100%;
+    overflow-y: hidden;
+    background-color: transparent;
+    pointer-events: none;
+}
+
+.accept_today_select_doc_ul1 {
+    position: relative;
+    width: 880px;
+    top: 0px;
+}
+
+.accept_today_select_doc_ul2 {
+    position: relative;
+    width: 880px;
+    top: 0px;
+    pointer-events: none;
+}
+
+.accept_today_select_doc_but {
+    width: 879px;
+    height: 293px;
+    line-height: 50px;
+    background-image: url(../../image/acc_back02.png);
+    background-color: transparent;
+    border: 0px;
+    outline: 0px;
+}
+
+.accept_today_select_cover {
+    position: relative;
+    width: 490px;
+    height: 293px;
+    line-height: 50px;
+    background-color: transparent;
+    border: 0px;
+    outline: 0px;
+    opacity: 0;
+    pointer-events: none;
+    left: 190px;
+}
+
+/*
+#accept_today_select_doc_but:active {
+    background-image: url(../../image/doc_back02.png);
+} 
+*/
+
+.accept_today_select_doc_img {
+    position: relative;
+    float: left;
+    text-align: center;
+    vertical-align: text-top;
+    background-color: transparent;
+    font-size: 1em;
+    color: black;
+    outline: 0px;
+    border: 0px;
+    width: 224px;
+    height: 182px;
+    top: 37px;
+    left: 70px;
+}
+
+.accept_today_select_doc_txt0 {
+    position: relative;
+    float: left;
+    text-align: center;
+    vertical-align: text-top;
+    background-color: transparent;
+    font-size: 1em;
+    color: black;
+    outline: 0px;
+    border: 0px;
+    width: 145px;
+    top: 5px;
+/*    visibility: hidden;*/
+}
+
+.accept_today_select_cover_txt0 {
+    position: relative;
+    float: left;
+    text-align: center;
+    vertical-align: text-top;
+    background-color: transparent;
+    font-size: 5em;
+    color: black;
+    outline: 0px;
+    border: 0px;
+    width: 510px;
+    height: 270px;
+    top: 5px;
+    pointer-events: none;
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-weight: 700;
+}
+
+#accept_today_select_text_box1 {
+    position: relative;
+    float: left;
+    top: 58px;
+    left: 139px;
+    width: 160px;
+    height: 250px;
+}
+
+.accept_today_select_doc_txt1,
+.accept_today_select_doc_txt2,
+.accept_today_select_doc_txt3 {
+    position: relative;
+    float: left;
+    vertical-align: text-top;
+    height: 39px;
+    background-color: transparent;
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 1.3em;
+    line-height: 50px;
+    color: black;
+    border: 0px;
+    outline: 0px;
+    resize: none;
+    top: 0px;
+    text-align: center;
+    width: 145px;
+}
+
+.accept_today_select_doc_txt4,
+.accept_today_select_doc_txt5 {
+    width: 125px;
+}
+
+.accept_today_select_doc_sbut {
+    position: relative;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/doc_sbtn.png);
+    top: 72px;
+    left: 160px;
+/*    left: 380px;*/
+}
+
+.accept_today_select_doc_sbut:active {
+    background-image: url(../../image/btn/doc_sbtn_r.png);
+}
+
+
+#accept_today_select_counttxt {
+    position: relative;
+    text-align: center;
+    vertical-align: text-top;
+    float: right;
+    top: 238px;
+    right: 0px;
+    width: 142px;
+    height: 50px;
+    background-color: transparent;
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 1em;
+    line-height: 50px;
+    color: gray;
+    border: 0px;
+    outline: 0px;
+    resize: none;
+}
+
+#accept_today_select_doc_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 100px;
+    height: 500px;
+    top: 955px;
+    left: 935px;
+}
+
+.accept_today_select_doc_but_up {
+    background-color: transparent;
+    position: relative;
+    width: 100px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/up_btn_n.png);
+}
+
+.accept_today_select_doc_but_down {
+    background-color: transparent;
+    position: relative;
+    width: 100px;
+    border: 0px;
+    outline: 0px;
+    top: 18px;
+    background-image: url(../../image/btn/down_btn_n.png);
+}
+
+#accept_today_select_doc_btn_up {
+    position: relative;
+    top: 0px;
+    width: 100px;
+    height: 241px;
+    background-color: transparent;
+    background-image: url(../../image/btn/up_btn.png);
+    border: 0px;
+    outline: 0px;
+}
+
+#accept_today_select_doc_btn_up:active {
+    background-image: url(../../image/btn/up_btn_r.png);
+}
+
+#accept_today_select_doc_btn_down {
+    position: relative;
+    width: 100px;
+    height: 241px;
+    background-color: transparent;
+    background-image: url(../../image/btn/down_btn.png);
+    border: 0px;
+    outline: 0px;
+}
+
+#accept_today_select_doc_btn_down:active {
+    background-image: url(../../image/btn/down_btn_r.png);
+}
+
+
+
+
+
+
+
+
+
+/* accept_today_select Page End */
+
+
+
+
+
+
+
+
+
+
+
+/* accept_today_select_ok Page Start */
+
+#accept_today_select_ok_pre_btn,
+#accept_today_select_ok_home_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+}
+
+#accept_today_select_ok_pre_but,
+#accept_today_select_ok_home_but {
+    background-color: transparent;
+    position: relative;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+}
+
+#accept_today_select_ok_pre_btn {
+    background-image: url(../../image/btn/no_btn.png);
+    top: 1737px;
+    left: 67px;
+}
+
+#accept_today_select_ok_home_btn {
+    background-image: url(../../image/btn/home_btn.png);
+    top: 28px;
+    left: 860px;
+}
+
+#accept_today_select_ok_pre_btn:active {
+    background-image: url(../../image/btn/no_btn_r.png);
+}
+
+#accept_today_select_ok_home_btn:active {
+    background-image: url(../../image/btn/home_btn_r.png);
+}
+
+
+#accept_today_select_ok_n_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 430px;
+}
+
+#accept_today_select_ok_n_title_img1 {
+    position: relative;
+}
+
+#accept_today_select_ok_n_tsub_img {
+    position: relative;
+    left: 114px;
+    top: 50px;
+    opacity: 0.5;
+    animation: tsub_img 1s infinite alternate;
+}
+
+#accept_today_select_ok_n_box1 {
+    position: relative;
+    left: 127px;
+    top: 191px;
+}
+
+#accept_today_select_ok_n_box2 {
+    position: relative;
+    left: 127px;
+    top: 221px;
+}
+
+#accept_today_select_ok_n_box3 {
+    position: relative;
+    left: 127px;
+    top: 251px;
+}
+
+#accept_today_select_ok_num_div {
+    position: absolute;
+    width: 1080px;
+    top: 794px;
+}
+
+#accept_today_select_ok_num_inputtxt1,
+#accept_today_select_ok_num_inputtxt2,
+#accept_today_select_ok_num_inputtxt3 {
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 3.5em;
+    color: black;
+    line-height: 45px;
+    font-weight: 500;
+    border: 0px;
+    outline: 0px;
+    text-align: left;
+    position: absolute;
+    width: 495px;
+    height: 119px;
+    left: 420px;
+    background-color: transparent;
+}
+
+#accept_today_select_ok_num_inputtxt1 {
+    top: 63px;
+}
+
+#accept_today_select_ok_num_inputtxt2 {
+    top: 238px;
+}
+
+#accept_today_select_ok_num_inputtxt3 {
+    top: 413px;
+}
+
+#accept_today_select_ok_con_btn {
+    position: absolute;
+    background-color: black;
+    top: 943px;
+}
+
+.accept_today_select_ok_btn_ok {
+    position: absolute;
+    background-color: transparent;
+    width: 382px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/ok_btn.png);
+    left: 629px;
+}
+
+.accept_today_select_ok_btn_ok:active {
+    background-image: url(../../image/btn/ok_btn_r.png);
+}
+
+
+/* accept_today_select_ok Page End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* accept_search_phone_list Page Start */
+
+#accept_search_phone_list_pre_btn,
+#accept_search_phone_list_home_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+}
+
+#accept_search_phone_list_pre_but,
+#accept_search_phone_list_home_but {
+    background-color: transparent;
+    position: relative;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+}
+
+#accept_search_phone_list_pre_btn {
+    background-image: url(../../image/btn/no_btn.png);
+    top: 1737px;
+    left: 67px;
+}
+
+#accept_search_phone_list_home_btn {
+    background-image: url(../../image/btn/home_btn.png);
+    top: 28px;
+    left: 860px;
+}
+
+#accept_search_phone_list_pre_btn:active {
+    background-image: url(../../image/btn/no_btn_r.png);
+}
+
+#accept_search_phone_list_home_btn:active {
+    background-image: url(../../image/btn/home_btn_r.png);
+}
+
+
+#accept_search_phone_list_n_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 430px;
+}
+
+#accept_search_phone_list_n_title_img1 {
+    position: relative;
+}
+
+#accept_search_phone_list_n_tsub_img {
+    position: relative;
+    left: 114px;
+    top: 50px;
+    opacity: 0.5;
+    animation: tsub_img 1s infinite alternate;
+}
+
+
+#accept_search_phone_list_doc_title_div {
+    position: absolute;
+    width: 879px;
+    left: 45px;
+/*    left: 103px;*/
+    top: 763px;
+}
+
+.accept_search_phone_list_view {
+    width: 879px;
+    height: 950px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.accept_search_phone_list_scrollBlind {
+    width: 1200px;
+    height: 100%;
+    overflow-y: hidden;
+    background-color: transparent;
+}
+
+.accept_search_phone_list_doc_ul {
+    position: relative;
+    width: 880px;
+    top: 0px;
+}
+
+#accept_search_phone_list_doc_but {
+    width: 879px;
+    height: 192px;
+    line-height: 50px;
+    background-image: url(../../image/doc_back04.png);
+    background-color: transparent;
+    border: 0px;
+    outline: 0px;
+}
+
+/*
+#accept_search_phone_list_doc_but:active {
+    background-image: url(../../image/doc_back02.png);
+} 
+*/
+.accept_search_phone_list_doc_txt0 {
+    position: relative;
+    float: left;
+    text-align: center;
+    vertical-align: text-top;
+    background-color: transparent;
+    font-size: 1em;
+    color: black;
+    outline: 0px;
+    border: 0px;
+    width: 145px;
+    top: 5px;
+    left: 10px;
+    visibility: hidden;
+}
+
+#accept_search_phone_list_text_box1 {
+    position: relative;
+    float: left;
+    top: 32px;
+    left: 40px;
+    width: 160px;
+    height: 100px;
+}
+
+#accept_search_phone_list_text_box2 {
+    position: relative;
+    float: left;
+    top: 32px;
+    left: 207px;
+    width: 160px;
+    height: 100px;
+}
+
+.accept_search_phone_list_doc_txt1,
+.accept_search_phone_list_doc_txt2,
+.accept_search_phone_list_doc_txt3,
+.accept_search_phone_list_doc_txt4 {
+    position: relative;
+    float: left;
+    vertical-align: text-top;
+    height: 39px;
+    background-color: transparent;
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 1.3em;
+    line-height: 50px;
+    color: black;
+    border: 0px;
+    outline: 0px;
+    resize: none;
+    top: 0px;
+    text-align: center;
+    width: 145px;
+}
+
+.accept_search_phone_list_doc_sbut {
+    position: relative;
+    background-color: transparent;
+    width: 112px;
+    height: 112px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/doc_presbtn.png);
+    top: 25px;
+    left: 245px;
+    /*    left: 370px;*/
+}
+
+.accept_search_phone_list_doc_sbut:active {
+    background-image: url(../../image/btn/doc_presbtn_r.png);
+}
+
+
+#accept_search_phone_list_counttxt {
+    position: relative;
+    text-align: center;
+    vertical-align: text-top;
+    float: right;
+    top: 138px;
+    right: 0px;
+    width: 142px;
+    height: 50px;
+    background-color: transparent;
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 1em;
+    line-height: 50px;
+    color: gray;
+    border: 0px;
+    outline: 0px;
+    resize: none;
+}
+
+
+#accept_search_phone_list_doc_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 100px;
+    height: 500px;
+    top: 955px;
+    left: 935px;
+}
+
+.accept_search_phone_list_doc_but_up {
+    background-color: transparent;
+    position: relative;
+    width: 100px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/up_btn_n.png);
+}
+
+.accept_search_phone_list_doc_but_down {
+    background-color: transparent;
+    position: relative;
+    width: 100px;
+    border: 0px;
+    outline: 0px;
+    top: 18px;
+    background-image: url(../../image/btn/down_btn_n.png);
+}
+
+#accept_search_phone_list_doc_btn_up {
+    position: relative;
+    top: 0px;
+    width: 100px;
+    height: 241px;
+    background-color: transparent;
+    background-image: url(../../image/btn/up_btn.png);
+    border: 0px;
+    outline: 0px;
+}
+
+#accept_search_phone_list_doc_btn_up:active {
+    background-image: url(../../image/btn/up_btn_r.png);
+}
+
+#accept_search_phone_list_doc_btn_down {
+    position: relative;
+    width: 100px;
+    height: 241px;
+    background-color: transparent;
+    background-image: url(../../image/btn/down_btn.png);
+    border: 0px;
+    outline: 0px;
+}
+
+#accept_search_phone_list_doc_btn_down:active {
+    background-image: url(../../image/btn/down_btn_r.png);
+}
+
+
+/* accept_search_phone_list Page End */
+
+
+
+
+
+
+
+
+/* pay_search_phone_list Page Start */
+
+#pay_search_phone_list_pre_btn,
+#pay_search_phone_list_home_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+}
+
+#pay_search_phone_list_pre_but,
+#pay_search_phone_list_home_but {
+    background-color: transparent;
+    position: relative;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+}
+
+#pay_search_phone_list_pre_btn {
+    background-image: url(../../image/btn/no_btn.png);
+    top: 1737px;
+    left: 67px;
+}
+
+#pay_search_phone_list_home_btn {
+    background-image: url(../../image/btn/home_btn.png);
+    top: 28px;
+    left: 860px;
+}
+
+#pay_search_phone_list_pre_btn:active {
+    background-image: url(../../image/btn/no_btn_r.png);
+}
+
+#pay_search_phone_list_home_btn:active {
+    background-image: url(../../image/btn/home_btn_r.png);
+}
+
+
+#pay_search_phone_list_n_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 430px;
+}
+
+#pay_search_phone_list_n_title_img1 {
+    position: relative;
+}
+
+#pay_search_phone_list_n_tsub_img {
+    position: relative;
+    left: 114px;
+    top: 50px;
+    opacity: 0.5;
+    animation: tsub_img 1s infinite alternate;
+}
+
+
+#pay_search_phone_list_doc_title_div {
+    position: absolute;
+    width: 879px;
+    left: 45px;
+/*    left: 103px;*/
+    top: 763px;
+}
+
+.pay_search_phone_list_view {
+    width: 879px;
+    height: 950px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.pay_search_phone_list_scrollBlind {
+    width: 1200px;
+    height: 100%;
+    overflow-y: hidden;
+    background-color: transparent;
+}
+
+.pay_search_phone_list_doc_ul {
+    position: relative;
+    width: 880px;
+    top: 0px;
+}
+
+#pay_search_phone_list_doc_but {
+    width: 879px;
+    height: 192px;
+    line-height: 50px;
+    background-image: url(../../image/doc_back04.png);
+    background-color: transparent;
+    border: 0px;
+    outline: 0px;
+}
+
+/*
+#pay_search_phone_list_doc_but:active {
+    background-image: url(../../image/doc_back02.png);
+} 
+*/
+.pay_search_phone_list_doc_txt0 {
+    position: relative;
+    float: left;
+    text-align: center;
+    vertical-align: text-top;
+    background-color: transparent;
+    font-size: 1em;
+    color: black;
+    outline: 0px;
+    border: 0px;
+    width: 145px;
+    top: 5px;
+    left: 10px;
+    visibility: hidden;
+}
+
+#pay_search_phone_list_text_box1 {
+    position: relative;
+    float: left;
+    top: 32px;
+    left: 40px;
+    width: 160px;
+    height: 100px;
+}
+
+#pay_search_phone_list_text_box2 {
+    position: relative;
+    float: left;
+    top: 32px;
+    left: 207px;
+    width: 160px;
+    height: 100px;
+}
+
+.pay_search_phone_list_doc_txt1,
+.pay_search_phone_list_doc_txt2,
+.pay_search_phone_list_doc_txt3,
+.pay_search_phone_list_doc_txt4 {
+    position: relative;
+    float: left;
+    vertical-align: text-top;
+    height: 39px;
+    background-color: transparent;
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 1.3em;
+    line-height: 50px;
+    color: black;
+    border: 0px;
+    outline: 0px;
+    resize: none;
+    top: 0px;
+    text-align: center;
+    width: 145px;
+}
+
+.pay_search_phone_list_doc_sbut {
+    position: relative;
+    background-color: transparent;
+    width: 112px;
+    height: 112px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/doc_presbtn.png);
+    top: 25px;
+    left: 245px;
+    /*    left: 370px;*/
+}
+
+.pay_search_phone_list_doc_sbut:active {
+    background-image: url(../../image/btn/doc_presbtn_r.png);
+}
+
+
+#pay_search_phone_list_counttxt {
+    position: relative;
+    text-align: center;
+    vertical-align: text-top;
+    float: right;
+    top: 138px;
+    right: 0px;
+    width: 142px;
+    height: 50px;
+    background-color: transparent;
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 1em;
+    line-height: 50px;
+    color: gray;
+    border: 0px;
+    outline: 0px;
+    resize: none;
+}
+
+
+#pay_search_phone_list_doc_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 100px;
+    height: 500px;
+    top: 955px;
+    left: 935px;
+}
+
+.pay_search_phone_list_doc_but_up {
+    background-color: transparent;
+    position: relative;
+    width: 100px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/up_btn_n.png);
+}
+
+.pay_search_phone_list_doc_but_down {
+    background-color: transparent;
+    position: relative;
+    width: 100px;
+    border: 0px;
+    outline: 0px;
+    top: 18px;
+    background-image: url(../../image/btn/down_btn_n.png);
+}
+
+#pay_search_phone_list_doc_btn_up {
+    position: relative;
+    top: 0px;
+    width: 100px;
+    height: 241px;
+    background-color: transparent;
+    background-image: url(../../image/btn/up_btn.png);
+    border: 0px;
+    outline: 0px;
+}
+
+#pay_search_phone_list_doc_btn_up:active {
+    background-image: url(../../image/btn/up_btn_r.png);
+}
+
+#pay_search_phone_list_doc_btn_down {
+    position: relative;
+    width: 100px;
+    height: 241px;
+    background-color: transparent;
+    background-image: url(../../image/btn/down_btn.png);
+    border: 0px;
+    outline: 0px;
+}
+
+#pay_search_phone_list_doc_btn_down:active {
+    background-image: url(../../image/btn/down_btn_r.png);
+}
+
+
+/* pay_search_phone_list Page End */
+
+
+
+
+
+
+
+/* prescription_search_phone_list Page Start */
+
+#prescription_search_phone_list_pre_btn,
+#prescription_search_phone_list_home_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 153px;
+    height: 153px;
+}
+
+#prescription_search_phone_list_pre_but,
+#prescription_search_phone_list_home_but {
+    background-color: transparent;
+    position: relative;
+    width: 153px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+}
+
+#prescription_search_phone_list_pre_btn {
+    background-image: url(../../image/btn/no_btn.png);
+    top: 1737px;
+    left: 67px;
+}
+
+#prescription_search_phone_list_home_btn {
+    background-image: url(../../image/btn/home_btn.png);
+    top: 28px;
+    left: 860px;
+}
+
+#prescription_search_phone_list_pre_btn:active {
+    background-image: url(../../image/btn/no_btn_r.png);
+}
+
+#prescription_search_phone_list_home_btn:active {
+    background-image: url(../../image/btn/home_btn_r.png);
+}
+
+
+#prescription_search_phone_list_n_title_div {
+    position: absolute;
+    width: 1080px;
+    top: 430px;
+}
+
+#prescription_search_phone_list_n_title_img1 {
+    position: relative;
+}
+
+#prescription_search_phone_list_n_tsub_img {
+    position: relative;
+    left: 114px;
+    top: 50px;
+    opacity: 0.5;
+    animation: tsub_img 1s infinite alternate;
+}
+
+
+#prescription_search_phone_list_doc_title_div {
+    position: absolute;
+    width: 879px;
+    left: 45px;
+/*    left: 103px;*/
+    top: 763px;
+}
+
+.prescription_search_phone_list_view {
+    width: 879px;
+    height: 950px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.prescription_search_phone_list_scrollBlind {
+    width: 1200px;
+    height: 100%;
+    overflow-y: hidden;
+    background-color: transparent;
+}
+
+.prescription_search_phone_list_doc_ul {
+    position: relative;
+    width: 880px;
+    top: 0px;
+}
+
+#prescription_search_phone_list_doc_but {
+    width: 879px;
+    height: 192px;
+    line-height: 50px;
+    background-image: url(../../image/doc_back04.png);
+    background-color: transparent;
+    border: 0px;
+    outline: 0px;
+}
+
+/*
+#prescription_search_phone_list_doc_but:active {
+    background-image: url(../../image/doc_back02.png);
+} 
+*/
+.prescription_search_phone_list_doc_txt0 {
+    position: relative;
+    float: left;
+    text-align: center;
+    vertical-align: text-top;
+    background-color: transparent;
+    font-size: 1em;
+    color: black;
+    outline: 0px;
+    border: 0px;
+    width: 145px;
+    top: 5px;
+    left: 10px;
+    visibility: hidden;
+}
+
+#prescription_search_phone_list_text_box1 {
+    position: relative;
+    float: left;
+    top: 32px;
+    left: 40px;
+    width: 160px;
+    height: 100px;
+}
+
+#prescription_search_phone_list_text_box2 {
+    position: relative;
+    float: left;
+    top: 32px;
+    left: 207px;
+    width: 160px;
+    height: 100px;
+}
+
+.prescription_search_phone_list_doc_txt1,
+.prescription_search_phone_list_doc_txt2,
+.prescription_search_phone_list_doc_txt3,
+.prescription_search_phone_list_doc_txt4 {
+    position: relative;
+    float: left;
+    vertical-align: text-top;
+    height: 39px;
+    background-color: transparent;
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 1.3em;
+    line-height: 50px;
+    color: black;
+    border: 0px;
+    outline: 0px;
+    resize: none;
+    top: 0px;
+    text-align: center;
+    width: 145px;
+    /* font-weight: 800; */
+}
+
+.prescription_search_phone_list_doc_sbut {
+    position: relative;
+    background-color: transparent;
+    width: 112px;
+    height: 112px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/doc_presbtn.png);
+    top: 25px;
+    left: 245px;
+    /*    left: 370px;*/
+}
+
+.prescription_search_phone_list_doc_sbut:active {
+    background-image: url(../../image/btn/doc_presbtn_r.png);
+}
+
+
+#prescription_search_phone_list_counttxt {
+    position: relative;
+    text-align: center;
+    vertical-align: text-top;
+    float: right;
+    top: 138px;
+    right: 0px;
+    width: 142px;
+    height: 50px;
+    background-color: transparent;
+    font-family: NanumGothic, ’나눔고딕’, ng, sans-serif;
+    font-size: 1em;
+    line-height: 50px;
+    color: gray;
+    border: 0px;
+    outline: 0px;
+    resize: none;
+}
+
+
+#prescription_search_phone_list_doc_btn {
+    position: absolute;
+    background-color: transparent;
+    width: 100px;
+    height: 500px;
+    top: 955px;
+    left: 935px;
+}
+
+.prescription_search_phone_list_doc_but_up {
+    background-color: transparent;
+    position: relative;
+    width: 100px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/up_btn_n.png);
+}
+
+.prescription_search_phone_list_doc_but_down {
+    background-color: transparent;
+    position: relative;
+    width: 100px;
+    border: 0px;
+    outline: 0px;
+    top: 18px;
+    background-image: url(../../image/btn/down_btn_n.png);
+}
+
+#prescription_search_phone_list_doc_btn_up {
+    position: relative;
+    top: 0px;
+    width: 100px;
+    height: 241px;
+    background-color: transparent;
+    background-image: url(../../image/btn/up_btn.png);
+    border: 0px;
+    outline: 0px;
+}
+
+#prescription_search_phone_list_doc_btn_up:active {
+    background-image: url(../../image/btn/up_btn_r.png);
+}
+
+#prescription_search_phone_list_doc_btn_down {
+    position: relative;
+    width: 100px;
+    height: 241px;
+    background-color: transparent;
+    background-image: url(../../image/btn/down_btn.png);
+    border: 0px;
+    outline: 0px;
+}
+
+#prescription_search_phone_list_doc_btn_down:active {
+    background-image: url(../../image/btn/down_btn_r.png);
+}
+
+
+/* prescription_search_phone_list Page End */
+
+
+
+
+
+
+
+.btndisableTrue1 {   /* 확인 */
+    position: absolute;
+    background-color: transparent;
+    width: 382px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/ok_btn.png);
+    left: 629px;
+    opacity: 0.5;
+    visibility: hidden;
+}
+
+.btndisableTrue2 {   /* 카드 */
+    position: absolute;
+    background-color: transparent;
+    width: 382px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/payment_btn.png);
+    left: 629px;
+    opacity: 0.5;
+    visibility: hidden;
+}
+
+
+
+
+.btndisableTrue3 {   /* 카드 */
+    position: relative;
+    background-color: transparent;
+    width: 112px;
+    height: 112px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/doc_presbtn.png);
+    top: 25px;
+    left: 245px;
+    visibility: hidden;
+}
+
+
+.btndisableAction {
+    position: absolute;
+    background-color: transparent;
+    width: 382px;
+    height: 153px;
+    border: 0px;
+    outline: 0px;
+    background-image: url(../../image/btn/ok_btn.png);
+    left: 629px;
+    top: -200px;
+    /* opacity: 0.5; */
+    visibility: hidden;
+}
