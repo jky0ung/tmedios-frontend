@@ -51,7 +51,7 @@ const PaySearchPage = () => {
   const [_, setPatientInfo] = useAtom(patientInfoAtom);
 
   const onClickSubmitButton = async () => {
-    console.log("submit registration number");
+    // console.log("submit registration number");
     let params = "";
     originalNumbers.forEach((number) => (params += number));
     if (params.length != 13) {
@@ -60,20 +60,24 @@ const PaySearchPage = () => {
       });
       return;
     }
-    // router.push("/pay_search_ok");
-    const bridge = window.chrome.webview.hostObjects.bridge;
-    const result = await bridge.Func(params);
-    const resultToJson = JSON.parse(result);
-    toast.success(resultToJson.result, {
-      id: "SUCCESS_REGISTRATION_NUMBER",
-    });
-    console.log("result from c#: ", resultToJson);
-    if (resultToJson.success == true) {
-      setPatientInfo({
-        name: resultToJson.patientName,
-        number: resultToJson.patientNumber,
-      });
+    console.log(typeof window.chrome.webview);
+    if (typeof window.chrome.webview == "undefined") {
       router.push("/pay_search_ok");
+    } else {
+      const bridge = window.chrome.webview.hostObjects.bridge;
+      const result = await bridge.Func(params);
+      const resultToJson = JSON.parse(result);
+      toast.success(resultToJson.result, {
+        id: "SUCCESS_REGISTRATION_NUMBER",
+      });
+      console.log("result from c#: ", resultToJson);
+      if (resultToJson.success == true) {
+        setPatientInfo({
+          name: resultToJson.patientName,
+          number: resultToJson.patientNumber,
+        });
+        router.push("/pay_search_ok");
+      }
     }
   };
 
